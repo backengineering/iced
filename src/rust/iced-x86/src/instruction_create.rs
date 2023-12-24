@@ -1,34 +1,29 @@
 // SPDX-License-Identifier: MIT
 // Copyright (C) 2018-present iced project and contributors
 
-mod private {
-	use crate::{Code, IcedError, Instruction};
-
-	pub trait With1<T> {
-		fn with1(code: Code, op0: T) -> Result<Instruction, IcedError>;
-	}
-
-	pub trait With2<T, U> {
-		fn with2(code: Code, op0: T, op1: U) -> Result<Instruction, IcedError>;
-	}
-
-	pub trait With3<T, U, V> {
-		fn with3(code: Code, op0: T, op1: U, op2: V) -> Result<Instruction, IcedError>;
-	}
-
-	pub trait With4<T, U, V, W> {
-		fn with4(code: Code, op0: T, op1: U, op2: V, op3: W) -> Result<Instruction, IcedError>;
-	}
-
-	pub trait With5<T, U, V, W, X> {
-		fn with5(code: Code, op0: T, op1: U, op2: V, op3: W, op4: X) -> Result<Instruction, IcedError>;
-	}
-}
-
-use self::private::{With1, With2, With3, With4, With5};
 use crate::instruction_internal;
 use crate::{Code, IcedError, Instruction, MemoryOperand, OpKind, Register, RepPrefixKind};
 use core::{u16, u32, u64};
+
+pub trait With1<T> {
+	fn with1(code: Code, op0: T) -> Result<Instruction, IcedError>;
+}
+
+pub trait With2<T, U> {
+	fn with2(code: Code, op0: T, op1: U) -> Result<Instruction, IcedError>;
+}
+
+pub trait With3<T, U, V> {
+	fn with3(code: Code, op0: T, op1: U, op2: V) -> Result<Instruction, IcedError>;
+}
+
+pub trait With4<T, U, V, W> {
+	fn with4(code: Code, op0: T, op1: U, op2: V, op3: W) -> Result<Instruction, IcedError>;
+}
+
+pub trait With5<T, U, V, W, X> {
+	fn with5(code: Code, op0: T, op1: U, op2: V, op3: W, op4: X) -> Result<Instruction, IcedError>;
+}
 
 impl Instruction {
 	fn init_memory_operand(instruction: &mut Instruction, memory: &MemoryOperand) {
