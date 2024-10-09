@@ -44482,51 +44482,81 @@ fn test_code_try_from_usize() {
 #[rustfmt::skip]
 #[allow(clippy::zero_sized_map_values)]
 const _: () = {
-	use core::marker::PhantomData;
-	use serde::de;
-	use serde::{Deserialize, Deserializer, Serialize, Serializer};
-	type EnumType = Code;
-	impl Serialize for EnumType {
-		#[inline]
-		fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
-		where
-			S: Serializer,
-		{
-			serializer.serialize_u16(*self as u16)
-		}
-	}
-	impl<'de> Deserialize<'de> for EnumType {
-		#[inline]
-		fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
-		where
-			D: Deserializer<'de>,
-		{
-			struct Visitor<'de> {
-				marker: PhantomData<EnumType>,
-				lifetime: PhantomData<&'de ()>,
-			}
-			impl<'de> de::Visitor<'de> for Visitor<'de> {
-				type Value = EnumType;
-				#[inline]
-				fn expecting(&self, formatter: &mut fmt::Formatter<'_>) -> fmt::Result {
-					formatter.write_str("enum Code")
-				}
-				#[inline]
-				fn visit_u64<E>(self, v: u64) -> Result<Self::Value, E>
-				where
-					E: de::Error,
-				{
-					if let Ok(v) = <usize as TryFrom<_>>::try_from(v) {
-						if let Ok(value) = <EnumType as TryFrom<_>>::try_from(v) {
-							return Ok(value);
-						}
-					}
-					Err(de::Error::invalid_value(de::Unexpected::Unsigned(v), &"a valid Code variant value"))
-				}
-			}
-			deserializer.deserialize_u16(Visitor { marker: PhantomData::<EnumType>, lifetime: PhantomData })
-		}
-	}
+    use core::marker::PhantomData;
+    use serde::de;
+    use serde::{Deserialize, Deserializer, Serialize, Serializer};
+    use core::fmt;
+
+    type EnumType = Code;
+
+    // Existing Serialize implementation for u16
+    impl Serialize for EnumType {
+        #[inline]
+        fn serialize<S>(&self, serializer: S) -> Result<S::Ok, S::Error>
+        where
+            S: Serializer,
+        {
+            // Serialize as u16
+            serializer.serialize_u16(*self as u16)
+        }
+    }
+
+    // Helper function to convert string to Code enum
+    fn from_str(s: &str) -> Option<EnumType> {
+        for (i, &name) in GEN_DEBUG_CODE.iter().enumerate() {
+            if name == s {
+                return EnumType::try_from(i).ok();
+            }
+        }
+        None
+    }
+
+    // Existing Deserialize implementation for u16 and new for string
+    impl<'de> Deserialize<'de> for EnumType {
+        #[inline]
+        fn deserialize<D>(deserializer: D) -> Result<Self, D::Error>
+        where
+            D: Deserializer<'de>,
+        {
+            struct Visitor<'de> {
+                marker: PhantomData<EnumType>,
+                lifetime: PhantomData<&'de ()>,
+            }
+
+            impl<'de> de::Visitor<'de> for Visitor<'de> {
+                type Value = EnumType;
+
+                #[inline]
+                fn expecting(&self, formatter: &mut fmt::Formatter<'_>) -> fmt::Result {
+                    formatter.write_str("u16 or string representation of Code enum")
+                }
+
+                #[inline]
+                fn visit_u64<E>(self, v: u64) -> Result<Self::Value, E>
+                where
+                    E: de::Error,
+                {
+                    if let Ok(v) = <usize as TryFrom<_>>::try_from(v) {
+                        if let Ok(value) = <EnumType as TryFrom<_>>::try_from(v) {
+                            return Ok(value);
+                        }
+                    }
+                    Err(de::Error::invalid_value(de::Unexpected::Unsigned(v), &"a valid Code variant value"))
+                }
+
+                #[inline]
+                fn visit_str<E>(self, value: &str) -> Result<Self::Value, E>
+                where
+                    E: de::Error,
+                {
+                    from_str(value)
+                        .ok_or_else(|| de::Error::unknown_variant(value, &GEN_DEBUG_CODE))
+                }
+            }
+
+            deserializer.deserialize_any(Visitor { marker: PhantomData::<EnumType>, lifetime: PhantomData })
+        }
+    }
 };
 // GENERATOR-END: Code
 
