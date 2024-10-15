@@ -3,7 +3,6 @@
 
 use crate::instruction_internal;
 use crate::{Code, IcedError, Instruction, MemoryOperand, OpKind, Register, RepPrefixKind};
-use core::{u16, u32, u64};
 
 pub trait With1<T> {
 	fn with1(code: Code, op0: T) -> Result<Instruction, IcedError>;

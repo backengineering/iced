@@ -44476,7 +44476,7 @@ fn test_code_try_from_usize() {
 		assert_eq!(converted, value);
 	}
 	assert!(<Code as TryFrom<usize>>::try_from(IcedConstants::CODE_ENUM_COUNT).is_err());
-	assert!(<Code as TryFrom<usize>>::try_from(core::usize::MAX).is_err());
+	assert!(<Code as TryFrom<usize>>::try_from(usize::MAX).is_err());
 }
 #[cfg(feature = "serde")]
 #[rustfmt::skip]
@@ -44883,6 +44883,7 @@ impl Code {
 	#[must_use]
 	#[inline]
 	#[allow(clippy::match_like_matches_macro)]
+	#[allow(unexpected_cfgs)]
 	pub const fn is_string_instruction(self) -> bool {
 		#[cfg_attr(feature = "cargo-fmt", rustfmt::skip)]
 		match self {
@@ -45113,6 +45114,7 @@ impl Code {
 impl Code {
 	#[must_use]
 	#[allow(clippy::match_like_matches_macro)]
+	#[allow(unexpected_cfgs)]
 	pub(crate) const fn ignores_segment(self) -> bool {
 		#[cfg_attr(feature = "cargo-fmt", rustfmt::skip)]
 		match self {
@@ -45138,6 +45140,7 @@ impl Code {
 	#[must_use]
 	#[inline]
 	#[allow(clippy::match_like_matches_macro)]
+	#[allow(unexpected_cfgs)]
 	pub(crate) const fn ignores_index(self) -> bool {
 		#[cfg_attr(feature = "cargo-fmt", rustfmt::skip)]
 		match self {
@@ -45153,6 +45156,7 @@ impl Code {
 
 	#[must_use]
 	#[inline]
+	#[allow(unexpected_cfgs)]
 	pub(crate) const fn is_tile_stride_index(self) -> bool {
 		#[cfg_attr(feature = "cargo-fmt", rustfmt::skip)]
 		match self {

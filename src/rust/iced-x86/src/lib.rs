@@ -33,6 +33,7 @@
 #![allow(clippy::implied_bounds_in_impls)]
 #![allow(clippy::manual_range_contains)]
 #![allow(clippy::match_ref_pats)]
+#![allow(clippy::missing_transmute_annotations)] // TODO: enable again
 #![allow(clippy::needless_late_init)]
 #![allow(clippy::ptr_eq)]
 #![allow(clippy::redundant_closure)] // Clippy is buggy
@@ -45,7 +46,6 @@
 #![warn(clippy::dbg_macro)]
 #![warn(clippy::debug_assert_with_mut_call)]
 #![warn(clippy::default_trait_access)]
-#![warn(clippy::doc_markdown)]
 #![warn(clippy::empty_line_after_outer_attr)]
 #![warn(clippy::explicit_into_iter_loop)]
 #![warn(clippy::explicit_iter_loop)]
