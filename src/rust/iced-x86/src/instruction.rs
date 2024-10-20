@@ -349,9 +349,12 @@ impl Instruction {
 					| Code::Xchg_rm16_r16
 					| Code::Xchg_rm32_r32
 					| Code::Xchg_rm64_r64
-					| Code::Mov_rm8_r8 | Code::Mov_rm16_r16
-					| Code::Mov_rm32_r32 | Code::Mov_rm64_r64
-					| Code::Mov_rm8_imm8 | Code::Mov_rm16_imm16
+					| Code::Mov_rm8_r8
+					| Code::Mov_rm16_r16
+					| Code::Mov_rm32_r32
+					| Code::Mov_rm64_r64
+					| Code::Mov_rm8_imm8
+					| Code::Mov_rm16_imm16
 					| Code::Mov_rm32_imm32
 					| Code::Mov_rm64_imm32
 			)
@@ -2447,6 +2450,7 @@ impl Instruction {
 	#[must_use]
 	#[allow(clippy::missing_inline_in_public_items)]
 	#[allow(clippy::match_single_binding)]
+	#[allow(unexpected_cfgs)]
 	pub const fn vsib(&self) -> Option<bool> {
 		#[cfg_attr(feature = "cargo-fmt", rustfmt::skip)]
 		match self.code() {
@@ -2829,6 +2833,7 @@ impl Instruction {
 	/// ```
 	#[must_use]
 	#[allow(clippy::missing_inline_in_public_items)]
+	#[allow(unexpected_cfgs)]
 	pub fn stack_pointer_increment(&self) -> i32 {
 		#[cfg_attr(feature = "cargo-fmt", rustfmt::skip)]
 		#[allow(clippy::match_single_binding)]
@@ -2948,6 +2953,7 @@ impl Instruction {
 	/// ```
 	#[must_use]
 	#[allow(clippy::missing_inline_in_public_items)]
+	#[allow(unexpected_cfgs)]
 	pub fn fpu_stack_increment_info(&self) -> FpuStackIncrementInfo {
 		#[cfg_attr(feature = "cargo-fmt", rustfmt::skip)]
 		#[allow(clippy::match_single_binding)]
@@ -3818,7 +3824,7 @@ struct OpKindIterator {
 impl OpKindIterator {
 	fn new(instruction: &Instruction) -> Self {
 		// `index`/`count` are `u8`
-		const _: () = assert!(IcedConstants::MAX_OP_COUNT <= core::u8::MAX as usize);
+		const _: () = assert!(IcedConstants::MAX_OP_COUNT <= u8::MAX as usize);
 		OpKindIterator {
 			count: instruction.op_count() as u8,
 			index: 0,
