@@ -1,0 +1,23 @@
+[package]
+name = "iced-x86-fzgt"
+version = "0.1.0"
+license = "MIT"
+description = "Test FuzzerGen output"
+edition = "2021"
+publish = false
+rust-version = "1.63.0"
+
+[dependencies.iced-x86]
+path = "../iced-x86"
+
+[workspace]
+resolver = "2"
+# We can only override [profile.release] if this is the root workspace.
+# So make sure this is the root workspace.
+
+[profile.release]
+# Make sure we get notified of any debug_assert{,eq,ne} failures in release builds
+debug-assertions = true
+codegen-units = 1
+lto = true
+opt-level = 3

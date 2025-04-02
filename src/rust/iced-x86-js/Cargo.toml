@@ -1,0 +1,63 @@
+[package]
+name = "iced-x86"
+# The version number can't be the same as iced-x86's version number or cargo build will fail
+version = "1.21.1000"
+license = "MIT"
+description = "iced-x86 is a blazing fast and correct x86/x64 disassembler, assembler and instruction decoder written in Rust and compiled to WebAssembly"
+homepage = "https://github.com/icedland/iced"
+repository = "https://github.com/icedland/iced"
+readme = "README.md"
+keywords = ["disassembler", "javascript", "assembler", "x86", "amd64"]
+categories = ["wasm", "development-tools::debugging", "encoding", "hardware-support"]
+edition = "2021"
+publish = false
+rust-version = "1.63.0"
+
+[lib]
+# Adding "rlib" increases the wasm file size, so ... don't do it
+crate-type = ["cdylib"]
+
+[features]
+default = ["instr_api", "decoder", "encoder", "block_encoder", "instr_create", "op_code_info", "instr_info", "gas", "intel", "masm", "nasm", "fast_fmt"]
+base = ["iced-x86-rust/std"]
+instr_api = ["base"]
+decoder = ["base", "iced-x86-rust/decoder"]
+encoder = ["base", "iced-x86-rust/encoder"]
+block_encoder = ["base", "iced-x86-rust/block_encoder"]
+instr_create = ["base", "iced-x86-rust/encoder"]
+op_code_info = ["base", "iced-x86-rust/op_code_info"]
+instr_info = ["base", "iced-x86-rust/instr_info"]
+gas = ["base", "iced-x86-rust/gas"]
+intel = ["base", "iced-x86-rust/intel"]
+masm = ["base", "iced-x86-rust/masm"]
+nasm = ["base", "iced-x86-rust/nasm"]
+fast_fmt = ["base", "iced-x86-rust/fast_fmt"]
+no_vex = ["iced-x86-rust/no_vex"]
+no_evex = ["iced-x86-rust/no_evex"]
+no_xop = ["iced-x86-rust/no_xop"]
+no_d3now = ["iced-x86-rust/no_d3now"]
+mvex = ["iced-x86-rust/mvex"]
+
+[dependencies]
+wasm-bindgen = { version = "0.2.79", features = ["strict-macro"] }
+js-sys = "0.3.56"
+
+[dependencies.iced-x86-rust]
+package = "iced-x86"
+path = "../iced-x86"
+default-features = false
+
+[workspace]
+resolver = "2"
+# We can only override [profile.release] if this is the root workspace.
+# So make sure this is the root workspace.
+
+[profile.release]
+codegen-units = 1
+lto = true
+# opt-level = 3
+opt-level = "z"
+
+[package.metadata.wasm-pack.profile.release]
+# wasm-opt = ["-O4"]
+wasm-opt = ["-Oz"]

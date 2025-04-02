@@ -1,0 +1,2856 @@
+# SPDX-License-Identifier: MIT
+# Copyright (C) 2018-present iced project and contributors
+
+64, 64 F3 A4, Movsb_m8_m8, UppercasePrefixes=true
+64, 64 F3 A4, Movsb_m8_m8, UppercasePrefixes=false
+
+64, 0F 20 E1, Mov_r64_cr, UppercaseMnemonics=true
+64, 0F 20 E1, Mov_r64_cr, UppercaseMnemonics=false
+
+64, 0F 20 E1, Mov_r64_cr, UppercaseRegisters=true
+64, 0F 20 E1, Mov_r64_cr, UppercaseRegisters=false
+
+64, 70 00, Jo_rel8_64, UppercaseKeywords=true ShowBranchSize=true
+64, 70 00, Jo_rel8_64, UppercaseKeywords=false ShowBranchSize=true
+
+64, 62 F14E9B 51 D3, EVEX_Vsqrtss_xmm_k1z_xmm_xmmm32_er, UppercaseDecorators=true
+64, 62 F14E9B 51 D3, EVEX_Vsqrtss_xmm_k1z_xmm_xmmm32_er, UppercaseDecorators=false
+64, 62 F14EBB 51 D3, EVEX_Vsqrtss_xmm_k1z_xmm_xmmm32_er, UppercaseDecorators=true
+64, 62 F14EBB 51 D3, EVEX_Vsqrtss_xmm_k1z_xmm_xmmm32_er, UppercaseDecorators=false
+64, 62 F14EDB 51 D3, EVEX_Vsqrtss_xmm_k1z_xmm_xmmm32_er, UppercaseDecorators=true
+64, 62 F14EDB 51 D3, EVEX_Vsqrtss_xmm_k1z_xmm_xmmm32_er, UppercaseDecorators=false
+64, 62 F14EFB 51 D3, EVEX_Vsqrtss_xmm_k1z_xmm_xmmm32_er, UppercaseDecorators=true
+64, 62 F14EFB 51 D3, EVEX_Vsqrtss_xmm_k1z_xmm_xmmm32_er, UppercaseDecorators=false
+64, 62 F3CDDB 54 D3 A5, EVEX_Vfixupimmpd_zmm_k1z_zmm_zmmm512b64_imm8_sae, UppercaseDecorators=true
+64, 62 F3CDDB 54 D3 A5, EVEX_Vfixupimmpd_zmm_k1z_zmm_zmmm512b64_imm8_sae, UppercaseDecorators=false
+
+64, 64 F3 A4, Movsb_m8_m8, UppercasePrefixes=false UppercaseMnemonics=false UppercaseRegisters=false UppercaseKeywords=false UppercaseDecorators=false UppercaseAll=true
+64, 64 F3 A4, Movsb_m8_m8, UppercasePrefixes=false UppercaseMnemonics=false UppercaseRegisters=false UppercaseKeywords=false UppercaseDecorators=false UppercaseAll=false
+64, 0F 20 E1, Mov_r64_cr, UppercasePrefixes=false UppercaseMnemonics=false UppercaseRegisters=false UppercaseKeywords=false UppercaseDecorators=false UppercaseAll=true
+64, 0F 20 E1, Mov_r64_cr, UppercasePrefixes=false UppercaseMnemonics=false UppercaseRegisters=false UppercaseKeywords=false UppercaseDecorators=false UppercaseAll=false
+64, 62 F24DDB AE D3, EVEX_Vfnmsub213ps_zmm_k1z_zmm_zmmm512b32_er, UppercasePrefixes=false UppercaseMnemonics=false UppercaseRegisters=false UppercaseKeywords=false UppercaseDecorators=false UppercaseAll=true
+64, 62 F24DDB AE D3, EVEX_Vfnmsub213ps_zmm_k1z_zmm_zmmm512b32_er, UppercasePrefixes=false UppercaseMnemonics=false UppercaseRegisters=false UppercaseKeywords=false UppercaseDecorators=false UppercaseAll=false
+64, 70 00, Jo_rel8_64, ShowBranchSize=true UppercasePrefixes=false UppercaseMnemonics=false UppercaseRegisters=false UppercaseKeywords=false UppercaseDecorators=false UppercaseAll=true
+64, 70 00, Jo_rel8_64, ShowBranchSize=true UppercasePrefixes=false UppercaseMnemonics=false UppercaseRegisters=false UppercaseKeywords=false UppercaseDecorators=false UppercaseAll=false
+
+64, 0F 20 E1, Mov_r64_cr, TabSize=-1 FirstOperandCharIndex=-1
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=-1
+
+64, 0F 20 E1, Mov_r64_cr, TabSize=-9 FirstOperandCharIndex=0
+64, 0F 20 E1, Mov_r64_cr, TabSize=-8 FirstOperandCharIndex=1
+64, 0F 20 E1, Mov_r64_cr, TabSize=-7 FirstOperandCharIndex=2
+64, 0F 20 E1, Mov_r64_cr, TabSize=-6 FirstOperandCharIndex=3
+64, 0F 20 E1, Mov_r64_cr, TabSize=-5 FirstOperandCharIndex=4
+64, 0F 20 E1, Mov_r64_cr, TabSize=-4 FirstOperandCharIndex=5
+64, 0F 20 E1, Mov_r64_cr, TabSize=-3 FirstOperandCharIndex=6
+64, 0F 20 E1, Mov_r64_cr, TabSize=-2 FirstOperandCharIndex=7
+64, 0F 20 E1, Mov_r64_cr, TabSize=-1 FirstOperandCharIndex=8
+64, 0F 20 E1, Mov_r64_cr, TabSize=0 FirstOperandCharIndex=9
+64, 0F 20 E1, Mov_r64_cr, TabSize=-9 FirstOperandCharIndex=10
+64, 0F 20 E1, Mov_r64_cr, TabSize=-8 FirstOperandCharIndex=11
+64, 0F 20 E1, Mov_r64_cr, TabSize=-7 FirstOperandCharIndex=12
+64, 0F 20 E1, Mov_r64_cr, TabSize=-6 FirstOperandCharIndex=13
+64, 0F 20 E1, Mov_r64_cr, TabSize=-5 FirstOperandCharIndex=14
+64, 0F 20 E1, Mov_r64_cr, TabSize=-4 FirstOperandCharIndex=15
+64, 0F 20 E1, Mov_r64_cr, TabSize=-3 FirstOperandCharIndex=16
+64, 0F 20 E1, Mov_r64_cr, TabSize=-2 FirstOperandCharIndex=17
+64, 0F 20 E1, Mov_r64_cr, TabSize=-1 FirstOperandCharIndex=18
+64, 0F 20 E1, Mov_r64_cr, TabSize=0 FirstOperandCharIndex=19
+64, 0F 20 E1, Mov_r64_cr, TabSize=-9 FirstOperandCharIndex=20
+
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=0
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=1
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=2
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=3
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=4
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=5
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=6
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=7
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=8
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=9
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=10
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=11
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=12
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=13
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=14
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=15
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=16
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=17
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=18
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=19
+64, 0F 20 E1, Mov_r64_cr, TabSize=1 FirstOperandCharIndex=20
+
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=0
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=1
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=2
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=3
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=4
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=5
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=6
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=7
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=8
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=9
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=10
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=11
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=12
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=13
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=14
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=15
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=16
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=17
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=18
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=19
+64, 0F 20 E1, Mov_r64_cr, TabSize=2 FirstOperandCharIndex=20
+
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=0
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=1
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=2
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=3
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=4
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=5
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=6
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=7
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=8
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=9
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=10
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=11
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=12
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=13
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=14
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=15
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=16
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=17
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=18
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=19
+64, 0F 20 E1, Mov_r64_cr, TabSize=3 FirstOperandCharIndex=20
+
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=0
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=1
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=2
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=3
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=4
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=5
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=6
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=7
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=8
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=9
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=10
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=11
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=12
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=13
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=14
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=15
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=16
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=17
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=18
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=19
+64, 0F 20 E1, Mov_r64_cr, TabSize=4 FirstOperandCharIndex=20
+
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=0
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=1
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=2
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=3
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=4
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=5
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=6
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=7
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=8
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=9
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=10
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=11
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=12
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=13
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=14
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=15
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=16
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=17
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=18
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=19
+64, 0F 20 E1, Mov_r64_cr, TabSize=8 FirstOperandCharIndex=20
+
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=0
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=1
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=2
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=3
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=4
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=5
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=6
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=7
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=8
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=9
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=10
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=11
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=12
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=13
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=14
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=15
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=16
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=17
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=18
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=19
+64, 0F 20 E1, Mov_r64_cr, TabSize=100 FirstOperandCharIndex=20
+
+64, C7 44 48 EE 88A9CBED, Mov_rm32_imm32, SpaceAfterMemoryBracket=true
+64, C7 44 48 EE 88A9CBED, Mov_rm32_imm32, SpaceAfterMemoryBracket=false
+
+64, C7 44 48 EE 88A9CBED, Mov_rm32_imm32, SpaceBetweenMemoryAddOperators=true
+64, C7 44 48 EE 88A9CBED, Mov_rm32_imm32, SpaceBetweenMemoryAddOperators=false
+
+64, C7 44 48 12 88A9CBED, Mov_rm32_imm32, SpaceBetweenMemoryAddOperators=true
+64, C7 44 48 12 88A9CBED, Mov_rm32_imm32, SpaceBetweenMemoryAddOperators=false
+
+64, C7 44 48 EE 88A9CBED, Mov_rm32_imm32, ScaleBeforeIndex=false SpaceBetweenMemoryMulOperators=true
+64, C7 44 48 EE 88A9CBED, Mov_rm32_imm32, ScaleBeforeIndex=false SpaceBetweenMemoryMulOperators=false
+
+64, C7 44 48 EE 88A9CBED, Mov_rm32_imm32, ScaleBeforeIndex=true SpaceBetweenMemoryMulOperators=true
+64, C7 44 48 EE 88A9CBED, Mov_rm32_imm32, ScaleBeforeIndex=true SpaceBetweenMemoryMulOperators=false
+
+64, 8B 0C 10, Mov_r32_rm32, AlwaysShowScale=true
+64, 8B 0C 10, Mov_r32_rm32, AlwaysShowScale=false
+
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Hexadecimal HexPrefix=<null> HexSuffix=<null>
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Hexadecimal HexPrefix=ppp HexSuffix=<null>
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Hexadecimal HexPrefix=<null> HexSuffix=sss
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Hexadecimal HexPrefix= HexSuffix=
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Hexadecimal HexPrefix=ppp HexSuffix=
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Hexadecimal HexPrefix= HexSuffix=sss
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Hexadecimal HexPrefix=ppp HexSuffix=sss
+
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Decimal DecimalPrefix=<null> DecimalSuffix=<null>
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Decimal DecimalPrefix=ppp DecimalSuffix=<null>
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Decimal DecimalPrefix=<null> DecimalSuffix=sss
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Decimal DecimalPrefix= DecimalSuffix=
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Decimal DecimalPrefix=ppp DecimalSuffix=
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Decimal DecimalPrefix= DecimalSuffix=sss
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Decimal DecimalPrefix=ppp DecimalSuffix=sss
+
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Octal OctalPrefix=<null> OctalSuffix=<null>
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Octal OctalPrefix=ppp OctalSuffix=<null>
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Octal OctalPrefix=<null> OctalSuffix=sss
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Octal OctalPrefix= OctalSuffix=
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Octal OctalPrefix=ppp OctalSuffix=
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Octal OctalPrefix= OctalSuffix=sss
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Octal OctalPrefix=ppp OctalSuffix=sss
+
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Binary BinaryPrefix=<null> BinarySuffix=<null>
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Binary BinaryPrefix=ppp BinarySuffix=<null>
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Binary BinaryPrefix=<null> BinarySuffix=sss
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Binary BinaryPrefix= BinarySuffix=
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Binary BinaryPrefix=ppp BinarySuffix=
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Binary BinaryPrefix= BinarySuffix=sss
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Binary BinaryPrefix=ppp BinarySuffix=sss
+
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Hexadecimal DigitSeparator=<null> HexDigitGroupSize=0
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Hexadecimal DigitSeparator=<null> HexDigitGroupSize=4
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=0
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=1 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Hexadecimal DigitSeparator=<null> HexDigitGroupSize=1 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0
+
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Decimal DigitSeparator=<null> DecimalDigitGroupSize=0
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Decimal DigitSeparator=<null> DecimalDigitGroupSize=3
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Decimal DigitSeparator=` DecimalDigitGroupSize=0
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=1 OctalDigitGroupSize=0 BinaryDigitGroupSize=0
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Decimal DigitSeparator=<null> HexDigitGroupSize=0 DecimalDigitGroupSize=1 OctalDigitGroupSize=0 BinaryDigitGroupSize=0
+
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Octal DigitSeparator=<null> OctalDigitGroupSize=0
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Octal DigitSeparator=<null> OctalDigitGroupSize=4
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Octal DigitSeparator=` OctalDigitGroupSize=0
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=1 BinaryDigitGroupSize=0
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Octal DigitSeparator=<null> HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=1 BinaryDigitGroupSize=0
+
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Binary DigitSeparator=<null> BinaryDigitGroupSize=0
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Binary DigitSeparator=<null> BinaryDigitGroupSize=4
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Binary DigitSeparator=` BinaryDigitGroupSize=0
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=1
+64, 48 B8 1032547698BADC7E, Mov_r64_imm64, NumberBase=Binary DigitSeparator=<null> HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=1
+
+64, 48 C7 C000000000, Mov_rm64_imm32, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C010000000, Mov_rm64_imm32, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C000010000, Mov_rm64_imm32, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C000100000, Mov_rm64_imm32, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C000000100, Mov_rm64_imm32, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C000001000, Mov_rm64_imm32, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C000000001, Mov_rm64_imm32, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C000000010, Mov_rm64_imm32, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000001000000, Mov_r64_imm64, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000010000000, Mov_r64_imm64, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000000010000, Mov_r64_imm64, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000000100000, Mov_r64_imm64, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000000000100, Mov_r64_imm64, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000000001000, Mov_r64_imm64, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000000000001, Mov_r64_imm64, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000000000010, Mov_r64_imm64, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+
+64, 48 C7 C000000000, Mov_rm64_imm32, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C00A000000, Mov_rm64_imm32, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C064000000, Mov_rm64_imm32, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C0E8030000, Mov_rm64_imm32, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C010270000, Mov_rm64_imm32, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C0A0860100, Mov_rm64_imm32, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C040420F00, Mov_rm64_imm32, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C080969800, Mov_rm64_imm32, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C000E1F505, Mov_rm64_imm32, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C000CA9A3B, Mov_rm64_imm32, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 00E40B5402000000, Mov_r64_imm64, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 00E8764817000000, Mov_r64_imm64, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0010A5D4E8000000, Mov_r64_imm64, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 00A0724E18090000, Mov_r64_imm64, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 00407A10F35A0000, Mov_r64_imm64, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0080C6A47E8D0300, Mov_r64_imm64, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000C16FF2862300, Mov_r64_imm64, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 00008A5D78456301, Mov_r64_imm64, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 000064A7B3B6E00D, Mov_r64_imm64, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000E8890423C78A, Mov_r64_imm64, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=false
+
+64, 48 C7 C000000000, Mov_rm64_imm32, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C008000000, Mov_rm64_imm32, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C040000000, Mov_rm64_imm32, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C000020000, Mov_rm64_imm32, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C000100000, Mov_rm64_imm32, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C000800000, Mov_rm64_imm32, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C000000400, Mov_rm64_imm32, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C000002000, Mov_rm64_imm32, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C000000001, Mov_rm64_imm32, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C000000008, Mov_rm64_imm32, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 C7 C000000040, Mov_rm64_imm32, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000002000000, Mov_r64_imm64, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000010000000, Mov_r64_imm64, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000080000000, Mov_r64_imm64, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000000040000, Mov_r64_imm64, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000000200000, Mov_r64_imm64, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000000000100, Mov_r64_imm64, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000000000800, Mov_r64_imm64, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000000004000, Mov_r64_imm64, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000000000002, Mov_r64_imm64, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000000000010, Mov_r64_imm64, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+64, 48 B8 0000000000000080, Mov_r64_imm64, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=false
+
+64, 48 C7 C000000000, Mov_rm64_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=false
+64, 48 C7 C002000000, Mov_rm64_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=false
+64, 48 C7 C004000000, Mov_rm64_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=false
+64, 48 C7 C008000000, Mov_rm64_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=false
+64, 48 C7 C010000000, Mov_rm64_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=false
+64, 48 C7 C020000000, Mov_rm64_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=false
+64, 48 C7 C040000000, Mov_rm64_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=false
+64, 48 C7 C080000000, Mov_rm64_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=false
+64, 48 C7 C000010000, Mov_rm64_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=false
+64, 48 C7 C000020000, Mov_rm64_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=false
+64, 48 C7 C000040000, Mov_rm64_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=false
+64, 48 C7 C000080000, Mov_rm64_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=false
+64, 48 C7 C000100000, Mov_rm64_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=false
+64, 48 C7 C000200000, Mov_rm64_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=false
+64, 48 C7 C000400000, Mov_rm64_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=false
+64, 48 C7 C000800000, Mov_rm64_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=false
+
+64, C7 C000000010, Mov_rm32_imm32, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=true
+64, C7 C080969800, Mov_rm32_imm32, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=true
+64, C7 C000002000, Mov_rm32_imm32, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=true
+64, C7 C080000000, Mov_rm32_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=true
+
+64, 48 C7 C000000010, Mov_rm64_imm32, NumberBase=Hexadecimal DigitSeparator=` HexDigitGroupSize=4 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=true
+64, 48 C7 C080969800, Mov_rm64_imm32, NumberBase=Decimal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=3 OctalDigitGroupSize=0 BinaryDigitGroupSize=0 LeadingZeros=true
+64, 48 C7 C000002000, Mov_rm64_imm32, NumberBase=Octal DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=4 BinaryDigitGroupSize=0 LeadingZeros=true
+64, 48 C7 C080000000, Mov_rm64_imm32, NumberBase=Binary DigitSeparator=` HexDigitGroupSize=0 DecimalDigitGroupSize=0 OctalDigitGroupSize=0 BinaryDigitGroupSize=4 LeadingZeros=true
+
+64, 48 B8 1032547698BADCFE, Mov_r64_imm64, NumberBase=Hexadecimal UppercaseHex=true
+64, 48 B8 1032547698BADCFE, Mov_r64_imm64, NumberBase=Hexadecimal UppercaseHex=false
+
+64, 8A 40 F6, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 F7, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 F8, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 F9, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 FA, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 FB, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 FC, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 FD, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 FE, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 FF, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 00, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 01, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 02, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 03, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 04, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 05, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 06, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 07, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 08, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 09, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+64, 8A 40 0A, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=true
+
+64, 8A 40 F6, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 F7, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 F8, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 F9, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 FA, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 FB, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 FC, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 FD, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 FE, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 FF, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 00, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 01, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 02, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 03, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 04, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 05, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 06, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 07, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 08, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 09, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+64, 8A 40 0A, Mov_r8_rm8, NumberBase=Hexadecimal ShowZeroDisplacements=true SmallHexNumbersInDecimal=false
+
+64, 48 B8 1032547698BADCFE, Mov_r64_imm64, NumberBase=Hexadecimal HexPrefix=<null> HexSuffix=<null> AddLeadingZeroToHexNumbers=true
+64, 48 B8 1032547698BADCFE, Mov_r64_imm64, NumberBase=Hexadecimal HexPrefix=<null> HexSuffix=<null> AddLeadingZeroToHexNumbers=false
+64, 48 B8 1032547698BADCFE, Mov_r64_imm64, NumberBase=Hexadecimal HexPrefix= HexSuffix= AddLeadingZeroToHexNumbers=true
+64, 48 B8 1032547698BADCFE, Mov_r64_imm64, NumberBase=Hexadecimal HexPrefix= HexSuffix= AddLeadingZeroToHexNumbers=false
+
+64, 70 00, Jo_rel8_64, ShowBranchSize=true
+64, 70 00, Jo_rel8_64, ShowBranchSize=false
+
+64, 48 B8 1032547698BADCFE, Mov_r64_imm64, NumberBase=Hexadecimal UppercaseHex=false HexPrefix=ppp HexSuffix=sss UppercaseAll=true
+64, 48 B8 1032547698BADCFE, Mov_r64_imm64, NumberBase=Hexadecimal UppercaseHex=false HexPrefix=ppp HexSuffix=sss UppercaseAll=false
+
+64, 70 00, Jo_rel8_64, SmallHexNumbersInDecimal=false BranchLeadingZeros=false IP=0
+64, 70 00, Jo_rel8_64, SmallHexNumbersInDecimal=false BranchLeadingZeros=true IP=0
+
+64, B1 A5, Mov_r8_imm8, SignedImmediateOperands=true
+64, B1 A5, Mov_r8_imm8, SignedImmediateOperands=false
+64, 66 B9 5AA5, Mov_r16_imm16, SignedImmediateOperands=true
+64, 66 B9 5AA5, Mov_r16_imm16, SignedImmediateOperands=false
+64, B9 34125AA5, Mov_r32_imm32, SignedImmediateOperands=true
+64, B9 34125AA5, Mov_r32_imm32, SignedImmediateOperands=false
+64, 48 B9 7856341234125AA5, Mov_r64_imm64, SignedImmediateOperands=true
+64, 48 B9 7856341234125AA5, Mov_r64_imm64, SignedImmediateOperands=false
+64, 66 83 C9 A5, Or_rm16_imm8, SignedImmediateOperands=true
+64, 66 83 C9 A5, Or_rm16_imm8, SignedImmediateOperands=false
+64, 83 C9 A5, Or_rm32_imm8, SignedImmediateOperands=true
+64, 83 C9 A5, Or_rm32_imm8, SignedImmediateOperands=false
+64, 48 83 C9 A5, Or_rm64_imm8, SignedImmediateOperands=true
+64, 48 83 C9 A5, Or_rm64_imm8, SignedImmediateOperands=false
+64, 48 81 C9 34125AA5, Or_rm64_imm32, SignedImmediateOperands=true
+64, 48 81 C9 34125AA5, Or_rm64_imm32, SignedImmediateOperands=false
+
+16, 8A 40 00, Mov_r8_rm8, ShowZeroDisplacements=true
+16, 8A 40 00, Mov_r8_rm8, ShowZeroDisplacements=false
+16, 8A 80 0000, Mov_r8_rm8, ShowZeroDisplacements=true
+16, 8A 80 0000, Mov_r8_rm8, ShowZeroDisplacements=false
+16, 8A 06 0000, Mov_r8_rm8, ShowZeroDisplacements=true
+16, 8A 06 0000, Mov_r8_rm8, ShowZeroDisplacements=false
+32, 8A 05 00000000, Mov_r8_rm8, ShowZeroDisplacements=true
+32, 8A 05 00000000, Mov_r8_rm8, ShowZeroDisplacements=false
+32, 8A 40 00, Mov_r8_rm8, ShowZeroDisplacements=true
+32, 8A 40 00, Mov_r8_rm8, ShowZeroDisplacements=false
+32, 8A 80 00000000, Mov_r8_rm8, ShowZeroDisplacements=true
+32, 8A 80 00000000, Mov_r8_rm8, ShowZeroDisplacements=false
+32, 8A 04 25 00000000, Mov_r8_rm8, ShowZeroDisplacements=true
+32, 8A 04 25 00000000, Mov_r8_rm8, ShowZeroDisplacements=false
+32, 8A 44 40 00, Mov_r8_rm8, ShowZeroDisplacements=true
+32, 8A 44 40 00, Mov_r8_rm8, ShowZeroDisplacements=false
+32, 8A 84 40 00000000, Mov_r8_rm8, ShowZeroDisplacements=true
+32, 8A 84 40 00000000, Mov_r8_rm8, ShowZeroDisplacements=false
+64, 8A 05 00000000, Mov_r8_rm8, ShowZeroDisplacements=true RipRelativeAddresses=true IP=0xFFFFFFFFFFFFFFFA
+64, 8A 05 00000000, Mov_r8_rm8, ShowZeroDisplacements=false RipRelativeAddresses=true IP=0xFFFFFFFFFFFFFFFA
+64, 8A 05 00000000, Mov_r8_rm8, ShowZeroDisplacements=true RipRelativeAddresses=false IP=0xFFFFFFFFFFFFFFFA
+64, 8A 05 00000000, Mov_r8_rm8, ShowZeroDisplacements=false RipRelativeAddresses=false IP=0xFFFFFFFFFFFFFFFA
+
+64, B1 00, Mov_r8_imm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=false
+64, B1 00, Mov_r8_imm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=true
+64, 66 B9 0000, Mov_r16_imm16, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=false
+64, 66 B9 0000, Mov_r16_imm16, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=true
+64, B9 00000000, Mov_r32_imm32, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=false
+64, B9 00000000, Mov_r32_imm32, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=true
+64, 48 B9 0000000000000000, Mov_r64_imm64, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=false
+64, 48 B9 0000000000000000, Mov_r64_imm64, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=true
+64, 66 83 C9 00, Or_rm16_imm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=false
+64, 66 83 C9 00, Or_rm16_imm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=true
+64, 83 C9 00, Or_rm32_imm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=false
+64, 83 C9 00, Or_rm32_imm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=true
+64, 48 83 C9 00, Or_rm64_imm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=false
+64, 48 83 C9 00, Or_rm64_imm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=true
+64, 48 81 C9 00000000, Or_rm64_imm32, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=false
+64, 48 81 C9 00000000, Or_rm64_imm32, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=true
+16, 8A 06 0000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=false
+16, 8A 06 0000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=true
+32, 8A 05 00000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=false
+32, 8A 05 00000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=true
+64, 8A 04 25 00000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=false
+64, 8A 04 25 00000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false LeadingZeros=true
+
+16, 8A 4F FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+16, 8A 4F FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+16, 8A 4F 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+16, 8A 4F 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+16, 8A 8F FFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+16, 8A 8F FFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+16, 8A 8F 0100, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+16, 8A 8F 0100, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+32, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+32, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+32, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+32, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+32, 8A 88 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+32, 8A 88 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+32, 8A 88 01000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+32, 8A 88 01000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+64, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+64, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+64, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+64, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+64, 8A 88 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+64, 8A 88 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+64, 8A 88 01000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+64, 8A 88 01000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+
+16, 8A 4F FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+16, 8A 4F FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+16, 8A 4F 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+16, 8A 4F 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+16, 8A 8F FFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+16, 8A 8F FFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+16, 8A 8F 0100, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+16, 8A 8F 0100, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+32, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+32, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+32, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+32, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+32, 8A 88 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+32, 8A 88 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+32, 8A 88 01000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+32, 8A 88 01000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+64, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+64, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+64, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+64, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+64, 8A 88 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+64, 8A 88 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+64, 8A 88 01000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+64, 8A 88 01000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+
+16, 8A 4F FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+16, 8A 4F FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+16, 8A 4F 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+16, 8A 4F 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+16, 8A 8F FFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+16, 8A 8F FFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+16, 8A 8F 0100, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+16, 8A 8F 0100, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+32, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+32, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+32, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+32, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+32, 8A 88 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+32, 8A 88 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+32, 8A 88 01000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+32, 8A 88 01000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+64, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+64, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+64, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+64, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+64, 8A 88 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+64, 8A 88 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+64, 8A 88 01000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+64, 8A 88 01000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+
+16, 8A 4F FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+16, 8A 4F FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+16, 8A 4F 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+16, 8A 4F 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+16, 8A 8F FFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+16, 8A 8F FFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+16, 8A 8F 0100, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+16, 8A 8F 0100, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+32, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+32, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+32, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+32, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+32, 8A 88 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+32, 8A 88 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+32, 8A 88 01000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+32, 8A 88 01000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+64, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+64, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+64, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+64, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+64, 8A 88 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+64, 8A 88 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+64, 8A 88 01000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+64, 8A 88 01000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+
+16, 8A 06 FFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+16, 8A 06 FFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+32, 8A 05 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+32, 8A 05 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+64, 8A 04 25 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+64, 8A 04 25 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+
+16, 8A 06 0000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+16, 8A 06 0000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+32, 8A 05 00000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+32, 8A 05 00000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+64, 8A 04 25 00000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+64, 8A 04 25 00000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+
+16, 8A 06 FFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+16, 8A 06 FFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+32, 8A 05 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+32, 8A 05 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+64, 8A 04 25 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+64, 8A 04 25 FFFFFFFF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+
+16, 8A 06 0000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+16, 8A 06 0000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+32, 8A 05 00000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+32, 8A 05 00000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+64, 8A 04 25 00000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+64, 8A 04 25 00000000, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+
+16, 8A 4F FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+16, 8A 4F FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+32, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+32, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+64, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+64, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+16, 8A 4F 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+16, 8A 4F 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+32, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+32, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+64, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=false
+64, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=false
+
+16, 8A 4F FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+16, 8A 4F FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+32, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+32, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+64, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+64, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+16, 8A 4F 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+16, 8A 4F 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+32, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+32, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+64, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=false
+64, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=false
+
+16, 8A 4F FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+16, 8A 4F FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+32, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+32, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+64, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+64, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+16, 8A 4F 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+16, 8A 4F 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+32, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+32, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+64, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+64, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+
+16, 8A 4F FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+16, 8A 4F FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+32, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+32, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+64, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+64, 8A 48 FF, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+16, 8A 4F 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+16, 8A 4F 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+32, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+32, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+64, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+64, 8A 48 01, Mov_r8_rm8, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+
+16, 62 F24D4B BC 50 7F, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+16, 62 F24D4B BC 50 80, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+16, 62 F24D4B BC 50 7F, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+16, 62 F24D4B BC 50 80, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+32, 62 F24D4B BC 50 7F, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+32, 62 F24D4B BC 50 80, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+32, 62 F24D4B BC 50 7F, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+32, 62 F24D4B BC 50 80, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+64, 62 F24D4B BC 50 7F, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+64, 62 F24D4B BC 50 80, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=false LeadingZeros=true
+64, 62 F24D4B BC 50 7F, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+64, 62 F24D4B BC 50 80, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=false LeadingZeros=true
+
+16, 62 F24D4B BC 50 7F, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+16, 62 F24D4B BC 50 80, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+16, 62 F24D4B BC 50 7F, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+16, 62 F24D4B BC 50 80, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+32, 62 F24D4B BC 50 7F, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+32, 62 F24D4B BC 50 80, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+32, 62 F24D4B BC 50 7F, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+32, 62 F24D4B BC 50 80, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+64, 62 F24D4B BC 50 7F, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+64, 62 F24D4B BC 50 80, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=true DisplacementLeadingZeros=true LeadingZeros=true
+64, 62 F24D4B BC 50 7F, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+64, 62 F24D4B BC 50 80, EVEX_Vfnmadd231ps_zmm_k1z_zmm_zmmm512b32_er, NumberBase=Hexadecimal SmallHexNumbersInDecimal=false SignedMemoryDisplacements=false DisplacementLeadingZeros=true LeadingZeros=true
+
+64, D8 C3, Fadd_st0_sti, PreferST0=false
+64, D8 CB, Fmul_st0_sti, PreferST0=false
+64, D8 E3, Fsub_st0_sti, PreferST0=false
+64, D8 EB, Fsubr_st0_sti, PreferST0=false
+64, D8 F3, Fdiv_st0_sti, PreferST0=false
+64, D8 FB, Fdivr_st0_sti, PreferST0=false
+64, DA C3, Fcmovb_st0_sti, PreferST0=false
+64, DA CB, Fcmove_st0_sti, PreferST0=false
+64, DA D3, Fcmovbe_st0_sti, PreferST0=false
+64, DA DB, Fcmovu_st0_sti, PreferST0=false
+64, DB C3, Fcmovnb_st0_sti, PreferST0=false
+64, DB CB, Fcmovne_st0_sti, PreferST0=false
+64, DB D3, Fcmovnbe_st0_sti, PreferST0=false
+64, DB DB, Fcmovnu_st0_sti, PreferST0=false
+64, DB EB, Fucomi_st0_sti, PreferST0=false
+64, DB F3, Fcomi_st0_sti, PreferST0=false
+64, DC C3, Fadd_sti_st0, PreferST0=false
+64, DC CB, Fmul_sti_st0, PreferST0=false
+64, DC E3, Fsubr_sti_st0, PreferST0=false
+64, DC EB, Fsub_sti_st0, PreferST0=false
+64, DC F3, Fdivr_sti_st0, PreferST0=false
+64, DC FB, Fdiv_sti_st0, PreferST0=false
+64, DE C3, Faddp_sti_st0, PreferST0=false
+64, DE CB, Fmulp_sti_st0, PreferST0=false
+64, DE E3, Fsubrp_sti_st0, PreferST0=false
+64, DE EB, Fsubp_sti_st0, PreferST0=false
+64, DE F3, Fdivrp_sti_st0, PreferST0=false
+64, DE FB, Fdivp_sti_st0, PreferST0=false
+64, DF EB, Fucomip_st0_sti, PreferST0=false
+64, DF F3, Fcomip_st0_sti, PreferST0=false
+
+64, D8 C3, Fadd_st0_sti, PreferST0=true
+64, D8 CB, Fmul_st0_sti, PreferST0=true
+64, D8 E3, Fsub_st0_sti, PreferST0=true
+64, D8 EB, Fsubr_st0_sti, PreferST0=true
+64, D8 F3, Fdiv_st0_sti, PreferST0=true
+64, D8 FB, Fdivr_st0_sti, PreferST0=true
+64, DA C3, Fcmovb_st0_sti, PreferST0=true
+64, DA CB, Fcmove_st0_sti, PreferST0=true
+64, DA D3, Fcmovbe_st0_sti, PreferST0=true
+64, DA DB, Fcmovu_st0_sti, PreferST0=true
+64, DB C3, Fcmovnb_st0_sti, PreferST0=true
+64, DB CB, Fcmovne_st0_sti, PreferST0=true
+64, DB D3, Fcmovnbe_st0_sti, PreferST0=true
+64, DB DB, Fcmovnu_st0_sti, PreferST0=true
+64, DB EB, Fucomi_st0_sti, PreferST0=true
+64, DB F3, Fcomi_st0_sti, PreferST0=true
+64, DC C3, Fadd_sti_st0, PreferST0=true
+64, DC CB, Fmul_sti_st0, PreferST0=true
+64, DC E3, Fsubr_sti_st0, PreferST0=true
+64, DC EB, Fsub_sti_st0, PreferST0=true
+64, DC F3, Fdivr_sti_st0, PreferST0=true
+64, DC FB, Fdiv_sti_st0, PreferST0=true
+64, DE C3, Faddp_sti_st0, PreferST0=true
+64, DE CB, Fmulp_sti_st0, PreferST0=true
+64, DE E3, Fsubrp_sti_st0, PreferST0=true
+64, DE EB, Fsubp_sti_st0, PreferST0=true
+64, DE F3, Fdivrp_sti_st0, PreferST0=true
+64, DE FB, Fdivp_sti_st0, PreferST0=true
+64, DF EB, Fucomip_st0_sti, PreferST0=true
+64, DF F3, Fcomip_st0_sti, PreferST0=true
+
+16, 72 00, Jb_rel8_16, CC_b=b
+16, 72 00, Jb_rel8_16, CC_b=c
+16, 72 00, Jb_rel8_16, CC_b=nae
+16, 73 00, Jae_rel8_16, CC_ae=ae
+16, 73 00, Jae_rel8_16, CC_ae=nb
+16, 73 00, Jae_rel8_16, CC_ae=nc
+16, 74 00, Je_rel8_16, CC_e=e
+16, 74 00, Je_rel8_16, CC_e=z
+16, 75 00, Jne_rel8_16, CC_ne=ne
+16, 75 00, Jne_rel8_16, CC_ne=nz
+16, 76 00, Jbe_rel8_16, CC_be=be
+16, 76 00, Jbe_rel8_16, CC_be=na
+16, 77 00, Ja_rel8_16, CC_a=a
+16, 77 00, Ja_rel8_16, CC_a=nbe
+16, 7A 00, Jp_rel8_16, CC_p=p
+16, 7A 00, Jp_rel8_16, CC_p=pe
+16, 7B 00, Jnp_rel8_16, CC_np=np
+16, 7B 00, Jnp_rel8_16, CC_np=po
+16, 7C 00, Jl_rel8_16, CC_l=l
+16, 7C 00, Jl_rel8_16, CC_l=nge
+16, 7D 00, Jge_rel8_16, CC_ge=ge
+16, 7D 00, Jge_rel8_16, CC_ge=nl
+16, 7E 00, Jle_rel8_16, CC_le=le
+16, 7E 00, Jle_rel8_16, CC_le=ng
+16, 7F 00, Jg_rel8_16, CC_g=g
+16, 7F 00, Jg_rel8_16, CC_g=nle
+
+32, 72 00, Jb_rel8_32, CC_b=b
+32, 72 00, Jb_rel8_32, CC_b=c
+32, 72 00, Jb_rel8_32, CC_b=nae
+32, 73 00, Jae_rel8_32, CC_ae=ae
+32, 73 00, Jae_rel8_32, CC_ae=nb
+32, 73 00, Jae_rel8_32, CC_ae=nc
+32, 74 00, Je_rel8_32, CC_e=e
+32, 74 00, Je_rel8_32, CC_e=z
+32, 75 00, Jne_rel8_32, CC_ne=ne
+32, 75 00, Jne_rel8_32, CC_ne=nz
+32, 76 00, Jbe_rel8_32, CC_be=be
+32, 76 00, Jbe_rel8_32, CC_be=na
+32, 77 00, Ja_rel8_32, CC_a=a
+32, 77 00, Ja_rel8_32, CC_a=nbe
+32, 7A 00, Jp_rel8_32, CC_p=p
+32, 7A 00, Jp_rel8_32, CC_p=pe
+32, 7B 00, Jnp_rel8_32, CC_np=np
+32, 7B 00, Jnp_rel8_32, CC_np=po
+32, 7C 00, Jl_rel8_32, CC_l=l
+32, 7C 00, Jl_rel8_32, CC_l=nge
+32, 7D 00, Jge_rel8_32, CC_ge=ge
+32, 7D 00, Jge_rel8_32, CC_ge=nl
+32, 7E 00, Jle_rel8_32, CC_le=le
+32, 7E 00, Jle_rel8_32, CC_le=ng
+32, 7F 00, Jg_rel8_32, CC_g=g
+32, 7F 00, Jg_rel8_32, CC_g=nle
+
+64, 72 00, Jb_rel8_64, CC_b=b
+64, 72 00, Jb_rel8_64, CC_b=c
+64, 72 00, Jb_rel8_64, CC_b=nae
+64, 73 00, Jae_rel8_64, CC_ae=ae
+64, 73 00, Jae_rel8_64, CC_ae=nb
+64, 73 00, Jae_rel8_64, CC_ae=nc
+64, 74 00, Je_rel8_64, CC_e=e
+64, 74 00, Je_rel8_64, CC_e=z
+64, 75 00, Jne_rel8_64, CC_ne=ne
+64, 75 00, Jne_rel8_64, CC_ne=nz
+64, 76 00, Jbe_rel8_64, CC_be=be
+64, 76 00, Jbe_rel8_64, CC_be=na
+64, 77 00, Ja_rel8_64, CC_a=a
+64, 77 00, Ja_rel8_64, CC_a=nbe
+64, 7A 00, Jp_rel8_64, CC_p=p
+64, 7A 00, Jp_rel8_64, CC_p=pe
+64, 7B 00, Jnp_rel8_64, CC_np=np
+64, 7B 00, Jnp_rel8_64, CC_np=po
+64, 7C 00, Jl_rel8_64, CC_l=l
+64, 7C 00, Jl_rel8_64, CC_l=nge
+64, 7D 00, Jge_rel8_64, CC_ge=ge
+64, 7D 00, Jge_rel8_64, CC_ge=nl
+64, 7E 00, Jle_rel8_64, CC_le=le
+64, 7E 00, Jle_rel8_64, CC_le=ng
+64, 7F 00, Jg_rel8_64, CC_g=g
+64, 7F 00, Jg_rel8_64, CC_g=nle
+
+16, 0F82 0000, Jb_rel16, CC_b=b
+16, 0F82 0000, Jb_rel16, CC_b=c
+16, 0F82 0000, Jb_rel16, CC_b=nae
+16, 0F83 0000, Jae_rel16, CC_ae=ae
+16, 0F83 0000, Jae_rel16, CC_ae=nb
+16, 0F83 0000, Jae_rel16, CC_ae=nc
+16, 0F84 0000, Je_rel16, CC_e=e
+16, 0F84 0000, Je_rel16, CC_e=z
+16, 0F85 0000, Jne_rel16, CC_ne=ne
+16, 0F85 0000, Jne_rel16, CC_ne=nz
+16, 0F86 0000, Jbe_rel16, CC_be=be
+16, 0F86 0000, Jbe_rel16, CC_be=na
+16, 0F87 0000, Ja_rel16, CC_a=a
+16, 0F87 0000, Ja_rel16, CC_a=nbe
+16, 0F8A 0000, Jp_rel16, CC_p=p
+16, 0F8A 0000, Jp_rel16, CC_p=pe
+16, 0F8B 0000, Jnp_rel16, CC_np=np
+16, 0F8B 0000, Jnp_rel16, CC_np=po
+16, 0F8C 0000, Jl_rel16, CC_l=l
+16, 0F8C 0000, Jl_rel16, CC_l=nge
+16, 0F8D 0000, Jge_rel16, CC_ge=ge
+16, 0F8D 0000, Jge_rel16, CC_ge=nl
+16, 0F8E 0000, Jle_rel16, CC_le=le
+16, 0F8E 0000, Jle_rel16, CC_le=ng
+16, 0F8F 0000, Jg_rel16, CC_g=g
+16, 0F8F 0000, Jg_rel16, CC_g=nle
+
+32, 0F82 00000000, Jb_rel32_32, CC_b=b
+32, 0F82 00000000, Jb_rel32_32, CC_b=c
+32, 0F82 00000000, Jb_rel32_32, CC_b=nae
+32, 0F83 00000000, Jae_rel32_32, CC_ae=ae
+32, 0F83 00000000, Jae_rel32_32, CC_ae=nb
+32, 0F83 00000000, Jae_rel32_32, CC_ae=nc
+32, 0F84 00000000, Je_rel32_32, CC_e=e
+32, 0F84 00000000, Je_rel32_32, CC_e=z
+32, 0F85 00000000, Jne_rel32_32, CC_ne=ne
+32, 0F85 00000000, Jne_rel32_32, CC_ne=nz
+32, 0F86 00000000, Jbe_rel32_32, CC_be=be
+32, 0F86 00000000, Jbe_rel32_32, CC_be=na
+32, 0F87 00000000, Ja_rel32_32, CC_a=a
+32, 0F87 00000000, Ja_rel32_32, CC_a=nbe
+32, 0F8A 00000000, Jp_rel32_32, CC_p=p
+32, 0F8A 00000000, Jp_rel32_32, CC_p=pe
+32, 0F8B 00000000, Jnp_rel32_32, CC_np=np
+32, 0F8B 00000000, Jnp_rel32_32, CC_np=po
+32, 0F8C 00000000, Jl_rel32_32, CC_l=l
+32, 0F8C 00000000, Jl_rel32_32, CC_l=nge
+32, 0F8D 00000000, Jge_rel32_32, CC_ge=ge
+32, 0F8D 00000000, Jge_rel32_32, CC_ge=nl
+32, 0F8E 00000000, Jle_rel32_32, CC_le=le
+32, 0F8E 00000000, Jle_rel32_32, CC_le=ng
+32, 0F8F 00000000, Jg_rel32_32, CC_g=g
+32, 0F8F 00000000, Jg_rel32_32, CC_g=nle
+
+64, 0F82 00000000, Jb_rel32_64, CC_b=b
+64, 0F82 00000000, Jb_rel32_64, CC_b=c
+64, 0F82 00000000, Jb_rel32_64, CC_b=nae
+64, 0F83 00000000, Jae_rel32_64, CC_ae=ae
+64, 0F83 00000000, Jae_rel32_64, CC_ae=nb
+64, 0F83 00000000, Jae_rel32_64, CC_ae=nc
+64, 0F84 00000000, Je_rel32_64, CC_e=e
+64, 0F84 00000000, Je_rel32_64, CC_e=z
+64, 0F85 00000000, Jne_rel32_64, CC_ne=ne
+64, 0F85 00000000, Jne_rel32_64, CC_ne=nz
+64, 0F86 00000000, Jbe_rel32_64, CC_be=be
+64, 0F86 00000000, Jbe_rel32_64, CC_be=na
+64, 0F87 00000000, Ja_rel32_64, CC_a=a
+64, 0F87 00000000, Ja_rel32_64, CC_a=nbe
+64, 0F8A 00000000, Jp_rel32_64, CC_p=p
+64, 0F8A 00000000, Jp_rel32_64, CC_p=pe
+64, 0F8B 00000000, Jnp_rel32_64, CC_np=np
+64, 0F8B 00000000, Jnp_rel32_64, CC_np=po
+64, 0F8C 00000000, Jl_rel32_64, CC_l=l
+64, 0F8C 00000000, Jl_rel32_64, CC_l=nge
+64, 0F8D 00000000, Jge_rel32_64, CC_ge=ge
+64, 0F8D 00000000, Jge_rel32_64, CC_ge=nl
+64, 0F8E 00000000, Jle_rel32_64, CC_le=le
+64, 0F8E 00000000, Jle_rel32_64, CC_le=ng
+64, 0F8F 00000000, Jg_rel32_64, CC_g=g
+64, 0F8F 00000000, Jg_rel32_64, CC_g=nle
+
+16, E0 00, Loopne_rel8_16_CX, CC_ne=ne
+16, E0 00, Loopne_rel8_16_CX, CC_ne=nz
+16, 67 E0 00, Loopne_rel8_16_ECX, CC_ne=ne
+16, 67 E0 00, Loopne_rel8_16_ECX, CC_ne=nz
+16, E1 00, Loope_rel8_16_CX, CC_e=e
+16, E1 00, Loope_rel8_16_CX, CC_e=z
+16, 67 E1 00, Loope_rel8_16_ECX, CC_e=e
+16, 67 E1 00, Loope_rel8_16_ECX, CC_e=z
+
+32, 67 E0 00, Loopne_rel8_32_CX, CC_ne=ne
+32, 67 E0 00, Loopne_rel8_32_CX, CC_ne=nz
+32, E0 00, Loopne_rel8_32_ECX, CC_ne=ne
+32, E0 00, Loopne_rel8_32_ECX, CC_ne=nz
+32, 67 E1 00, Loope_rel8_32_CX, CC_e=e
+32, 67 E1 00, Loope_rel8_32_CX, CC_e=z
+32, E1 00, Loope_rel8_32_ECX, CC_e=e
+32, E1 00, Loope_rel8_32_ECX, CC_e=z
+
+64, 67 E0 00, Loopne_rel8_64_ECX, CC_ne=ne
+64, 67 E0 00, Loopne_rel8_64_ECX, CC_ne=nz
+64, 66 E0 00, Loopne_rel8_16_RCX, CC_ne=ne DecoderOptions=AMD
+64, 66 E0 00, Loopne_rel8_16_RCX, CC_ne=nz DecoderOptions=AMD
+64, E0 00, Loopne_rel8_64_RCX, CC_ne=ne
+64, E0 00, Loopne_rel8_64_RCX, CC_ne=nz
+64, 67 E1 00, Loope_rel8_64_ECX, CC_e=e
+64, 67 E1 00, Loope_rel8_64_ECX, CC_e=z
+64, 66 E1 00, Loope_rel8_16_RCX, CC_e=e DecoderOptions=AMD
+64, 66 E1 00, Loope_rel8_16_RCX, CC_e=z DecoderOptions=AMD
+64, E1 00, Loope_rel8_64_RCX, CC_e=e
+64, E1 00, Loope_rel8_64_RCX, CC_e=z
+
+64, 66 0F42 CE, Cmovb_r16_rm16, CC_b=b
+64, 66 0F42 CE, Cmovb_r16_rm16, CC_b=c
+64, 66 0F42 CE, Cmovb_r16_rm16, CC_b=nae
+64, 66 0F43 CE, Cmovae_r16_rm16, CC_ae=ae
+64, 66 0F43 CE, Cmovae_r16_rm16, CC_ae=nb
+64, 66 0F43 CE, Cmovae_r16_rm16, CC_ae=nc
+64, 66 0F44 CE, Cmove_r16_rm16, CC_e=e
+64, 66 0F44 CE, Cmove_r16_rm16, CC_e=z
+64, 66 0F45 CE, Cmovne_r16_rm16, CC_ne=ne
+64, 66 0F45 CE, Cmovne_r16_rm16, CC_ne=nz
+64, 66 0F46 CE, Cmovbe_r16_rm16, CC_be=be
+64, 66 0F46 CE, Cmovbe_r16_rm16, CC_be=na
+64, 66 0F47 CE, Cmova_r16_rm16, CC_a=a
+64, 66 0F47 CE, Cmova_r16_rm16, CC_a=nbe
+64, 66 0F4A CE, Cmovp_r16_rm16, CC_p=p
+64, 66 0F4A CE, Cmovp_r16_rm16, CC_p=pe
+64, 66 0F4B CE, Cmovnp_r16_rm16, CC_np=np
+64, 66 0F4B CE, Cmovnp_r16_rm16, CC_np=po
+64, 66 0F4C CE, Cmovl_r16_rm16, CC_l=l
+64, 66 0F4C CE, Cmovl_r16_rm16, CC_l=nge
+64, 66 0F4D CE, Cmovge_r16_rm16, CC_ge=ge
+64, 66 0F4D CE, Cmovge_r16_rm16, CC_ge=nl
+64, 66 0F4E CE, Cmovle_r16_rm16, CC_le=le
+64, 66 0F4E CE, Cmovle_r16_rm16, CC_le=ng
+64, 66 0F4F CE, Cmovg_r16_rm16, CC_g=g
+64, 66 0F4F CE, Cmovg_r16_rm16, CC_g=nle
+
+64, 0F42 CE, Cmovb_r32_rm32, CC_b=b
+64, 0F42 CE, Cmovb_r32_rm32, CC_b=c
+64, 0F42 CE, Cmovb_r32_rm32, CC_b=nae
+64, 0F43 CE, Cmovae_r32_rm32, CC_ae=ae
+64, 0F43 CE, Cmovae_r32_rm32, CC_ae=nb
+64, 0F43 CE, Cmovae_r32_rm32, CC_ae=nc
+64, 0F44 CE, Cmove_r32_rm32, CC_e=e
+64, 0F44 CE, Cmove_r32_rm32, CC_e=z
+64, 0F45 CE, Cmovne_r32_rm32, CC_ne=ne
+64, 0F45 CE, Cmovne_r32_rm32, CC_ne=nz
+64, 0F46 CE, Cmovbe_r32_rm32, CC_be=be
+64, 0F46 CE, Cmovbe_r32_rm32, CC_be=na
+64, 0F47 CE, Cmova_r32_rm32, CC_a=a
+64, 0F47 CE, Cmova_r32_rm32, CC_a=nbe
+64, 0F4A CE, Cmovp_r32_rm32, CC_p=p
+64, 0F4A CE, Cmovp_r32_rm32, CC_p=pe
+64, 0F4B CE, Cmovnp_r32_rm32, CC_np=np
+64, 0F4B CE, Cmovnp_r32_rm32, CC_np=po
+64, 0F4C CE, Cmovl_r32_rm32, CC_l=l
+64, 0F4C CE, Cmovl_r32_rm32, CC_l=nge
+64, 0F4D CE, Cmovge_r32_rm32, CC_ge=ge
+64, 0F4D CE, Cmovge_r32_rm32, CC_ge=nl
+64, 0F4E CE, Cmovle_r32_rm32, CC_le=le
+64, 0F4E CE, Cmovle_r32_rm32, CC_le=ng
+64, 0F4F CE, Cmovg_r32_rm32, CC_g=g
+64, 0F4F CE, Cmovg_r32_rm32, CC_g=nle
+
+64, 48 0F42 CE, Cmovb_r64_rm64, CC_b=b
+64, 48 0F42 CE, Cmovb_r64_rm64, CC_b=c
+64, 48 0F42 CE, Cmovb_r64_rm64, CC_b=nae
+64, 48 0F43 CE, Cmovae_r64_rm64, CC_ae=ae
+64, 48 0F43 CE, Cmovae_r64_rm64, CC_ae=nb
+64, 48 0F43 CE, Cmovae_r64_rm64, CC_ae=nc
+64, 48 0F44 CE, Cmove_r64_rm64, CC_e=e
+64, 48 0F44 CE, Cmove_r64_rm64, CC_e=z
+64, 48 0F45 CE, Cmovne_r64_rm64, CC_ne=ne
+64, 48 0F45 CE, Cmovne_r64_rm64, CC_ne=nz
+64, 48 0F46 CE, Cmovbe_r64_rm64, CC_be=be
+64, 48 0F46 CE, Cmovbe_r64_rm64, CC_be=na
+64, 48 0F47 CE, Cmova_r64_rm64, CC_a=a
+64, 48 0F47 CE, Cmova_r64_rm64, CC_a=nbe
+64, 48 0F4A CE, Cmovp_r64_rm64, CC_p=p
+64, 48 0F4A CE, Cmovp_r64_rm64, CC_p=pe
+64, 48 0F4B CE, Cmovnp_r64_rm64, CC_np=np
+64, 48 0F4B CE, Cmovnp_r64_rm64, CC_np=po
+64, 48 0F4C CE, Cmovl_r64_rm64, CC_l=l
+64, 48 0F4C CE, Cmovl_r64_rm64, CC_l=nge
+64, 48 0F4D CE, Cmovge_r64_rm64, CC_ge=ge
+64, 48 0F4D CE, Cmovge_r64_rm64, CC_ge=nl
+64, 48 0F4E CE, Cmovle_r64_rm64, CC_le=le
+64, 48 0F4E CE, Cmovle_r64_rm64, CC_le=ng
+64, 48 0F4F CE, Cmovg_r64_rm64, CC_g=g
+64, 48 0F4F CE, Cmovg_r64_rm64, CC_g=nle
+
+64, 0F92 C0, Setb_rm8, CC_b=b
+64, 0F92 C0, Setb_rm8, CC_b=c
+64, 0F92 C0, Setb_rm8, CC_b=nae
+64, 0F93 C0, Setae_rm8, CC_ae=ae
+64, 0F93 C0, Setae_rm8, CC_ae=nb
+64, 0F93 C0, Setae_rm8, CC_ae=nc
+64, 0F94 C0, Sete_rm8, CC_e=e
+64, 0F94 C0, Sete_rm8, CC_e=z
+64, 0F95 C0, Setne_rm8, CC_ne=ne
+64, 0F95 C0, Setne_rm8, CC_ne=nz
+64, 0F96 C0, Setbe_rm8, CC_be=be
+64, 0F96 C0, Setbe_rm8, CC_be=na
+64, 0F97 C0, Seta_rm8, CC_a=a
+64, 0F97 C0, Seta_rm8, CC_a=nbe
+64, 0F9A C0, Setp_rm8, CC_p=p
+64, 0F9A C0, Setp_rm8, CC_p=pe
+64, 0F9B C0, Setnp_rm8, CC_np=np
+64, 0F9B C0, Setnp_rm8, CC_np=po
+64, 0F9C C0, Setl_rm8, CC_l=l
+64, 0F9C C0, Setl_rm8, CC_l=nge
+64, 0F9D C0, Setge_rm8, CC_ge=ge
+64, 0F9D C0, Setge_rm8, CC_ge=nl
+64, 0F9E C0, Setle_rm8, CC_le=le
+64, 0F9E C0, Setle_rm8, CC_le=ng
+64, 0F9F C0, Setg_rm8, CC_g=g
+64, 0F9F C0, Setg_rm8, CC_g=nle
+
+64, C4E249 E2 10, VEX_Cmpbxadd_m32_r32_r32, CC_b=b
+64, C4E249 E2 10, VEX_Cmpbxadd_m32_r32_r32, CC_b=c
+64, C4E249 E2 10, VEX_Cmpbxadd_m32_r32_r32, CC_b=nae
+64, C4E249 E3 10, VEX_Cmpnbxadd_m32_r32_r32, CC_ae=ae
+64, C4E249 E3 10, VEX_Cmpnbxadd_m32_r32_r32, CC_ae=nb
+64, C4E249 E3 10, VEX_Cmpnbxadd_m32_r32_r32, CC_ae=nc
+64, C4E249 E4 10, VEX_Cmpzxadd_m32_r32_r32, CC_e=e
+64, C4E249 E4 10, VEX_Cmpzxadd_m32_r32_r32, CC_e=z
+64, C4E249 E5 10, VEX_Cmpnzxadd_m32_r32_r32, CC_ne=ne
+64, C4E249 E5 10, VEX_Cmpnzxadd_m32_r32_r32, CC_ne=nz
+64, C4E249 E6 10, VEX_Cmpbexadd_m32_r32_r32, CC_be=be
+64, C4E249 E6 10, VEX_Cmpbexadd_m32_r32_r32, CC_be=na
+64, C4E249 E7 10, VEX_Cmpnbexadd_m32_r32_r32, CC_a=a
+64, C4E249 E7 10, VEX_Cmpnbexadd_m32_r32_r32, CC_a=nbe
+64, C4E249 EA 10, VEX_Cmppxadd_m32_r32_r32, CC_p=p
+64, C4E249 EA 10, VEX_Cmppxadd_m32_r32_r32, CC_p=pe
+64, C4E249 EB 10, VEX_Cmpnpxadd_m32_r32_r32, CC_np=np
+64, C4E249 EB 10, VEX_Cmpnpxadd_m32_r32_r32, CC_np=po
+64, C4E249 EC 10, VEX_Cmplxadd_m32_r32_r32, CC_l=l
+64, C4E249 EC 10, VEX_Cmplxadd_m32_r32_r32, CC_l=nge
+64, C4E249 ED 10, VEX_Cmpnlxadd_m32_r32_r32, CC_ge=ge
+64, C4E249 ED 10, VEX_Cmpnlxadd_m32_r32_r32, CC_ge=nl
+64, C4E249 EE 10, VEX_Cmplexadd_m32_r32_r32, CC_le=le
+64, C4E249 EE 10, VEX_Cmplexadd_m32_r32_r32, CC_le=ng
+64, C4E249 EF 10, VEX_Cmpnlexadd_m32_r32_r32, CC_g=g
+64, C4E249 EF 10, VEX_Cmpnlexadd_m32_r32_r32, CC_g=nle
+
+64, C4E2C9 E2 10, VEX_Cmpbxadd_m64_r64_r64, CC_b=b
+64, C4E2C9 E2 10, VEX_Cmpbxadd_m64_r64_r64, CC_b=c
+64, C4E2C9 E2 10, VEX_Cmpbxadd_m64_r64_r64, CC_b=nae
+64, C4E2C9 E3 10, VEX_Cmpnbxadd_m64_r64_r64, CC_ae=ae
+64, C4E2C9 E3 10, VEX_Cmpnbxadd_m64_r64_r64, CC_ae=nb
+64, C4E2C9 E3 10, VEX_Cmpnbxadd_m64_r64_r64, CC_ae=nc
+64, C4E2C9 E4 10, VEX_Cmpzxadd_m64_r64_r64, CC_e=e
+64, C4E2C9 E4 10, VEX_Cmpzxadd_m64_r64_r64, CC_e=z
+64, C4E2C9 E5 10, VEX_Cmpnzxadd_m64_r64_r64, CC_ne=ne
+64, C4E2C9 E5 10, VEX_Cmpnzxadd_m64_r64_r64, CC_ne=nz
+64, C4E2C9 E6 10, VEX_Cmpbexadd_m64_r64_r64, CC_be=be
+64, C4E2C9 E6 10, VEX_Cmpbexadd_m64_r64_r64, CC_be=na
+64, C4E2C9 E7 10, VEX_Cmpnbexadd_m64_r64_r64, CC_a=a
+64, C4E2C9 E7 10, VEX_Cmpnbexadd_m64_r64_r64, CC_a=nbe
+64, C4E2C9 EA 10, VEX_Cmppxadd_m64_r64_r64, CC_p=p
+64, C4E2C9 EA 10, VEX_Cmppxadd_m64_r64_r64, CC_p=pe
+64, C4E2C9 EB 10, VEX_Cmpnpxadd_m64_r64_r64, CC_np=np
+64, C4E2C9 EB 10, VEX_Cmpnpxadd_m64_r64_r64, CC_np=po
+64, C4E2C9 EC 10, VEX_Cmplxadd_m64_r64_r64, CC_l=l
+64, C4E2C9 EC 10, VEX_Cmplxadd_m64_r64_r64, CC_l=nge
+64, C4E2C9 ED 10, VEX_Cmpnlxadd_m64_r64_r64, CC_ge=ge
+64, C4E2C9 ED 10, VEX_Cmpnlxadd_m64_r64_r64, CC_ge=nl
+64, C4E2C9 EE 10, VEX_Cmplexadd_m64_r64_r64, CC_le=le
+64, C4E2C9 EE 10, VEX_Cmplexadd_m64_r64_r64, CC_le=ng
+64, C4E2C9 EF 10, VEX_Cmpnlexadd_m64_r64_r64, CC_g=g
+64, C4E2C9 EF 10, VEX_Cmpnlexadd_m64_r64_r64, CC_g=nle
+
+64, 26 8B CA, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 26 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 2E 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 36 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 3E 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 64 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 65 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 26 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 2E 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 36 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 3E 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 64 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 65 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 26 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 2E 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 36 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 3E 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 64 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=false
+64, 65 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 26 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 2E 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 36 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 3E 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 64 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 65 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 26 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 2E 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 36 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 3E 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 64 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 65 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 26 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 2E 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 36 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 3E 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 64 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=false
+32, 65 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=false
+16, 26 8B 07, Mov_r16_rm16, ShowUselessPrefixes=false
+16, 2E 8B 07, Mov_r16_rm16, ShowUselessPrefixes=false
+16, 36 8B 07, Mov_r16_rm16, ShowUselessPrefixes=false
+16, 3E 8B 07, Mov_r16_rm16, ShowUselessPrefixes=false
+16, 64 8B 07, Mov_r16_rm16, ShowUselessPrefixes=false
+16, 65 8B 07, Mov_r16_rm16, ShowUselessPrefixes=false
+16, 26 8B 46 00, Mov_r16_rm16, ShowUselessPrefixes=false
+16, 2E 8B 46 00, Mov_r16_rm16, ShowUselessPrefixes=false
+16, 36 8B 46 00, Mov_r16_rm16, ShowUselessPrefixes=false
+16, 3E 8B 46 00, Mov_r16_rm16, ShowUselessPrefixes=false
+16, 64 8B 46 00, Mov_r16_rm16, ShowUselessPrefixes=false
+16, 65 8B 46 00, Mov_r16_rm16, ShowUselessPrefixes=false
+64, F3 8B CA, Mov_r32_rm32, ShowUselessPrefixes=false
+64, F2 8B CA, Mov_r32_rm32, ShowUselessPrefixes=false
+
+64, 26 8B CA, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 26 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 2E 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 36 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 3E 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 64 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 65 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 26 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 2E 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 36 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 3E 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 64 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 65 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 26 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 2E 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 36 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 3E 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 64 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=true
+64, 65 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 26 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 2E 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 36 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 3E 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 64 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 65 8B 0A, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 26 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 2E 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 36 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 3E 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 64 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 65 8B 4D 00, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 26 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 2E 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 36 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 3E 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 64 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=true
+32, 65 8B 0C 24, Mov_r32_rm32, ShowUselessPrefixes=true
+16, 26 8B 07, Mov_r16_rm16, ShowUselessPrefixes=true
+16, 2E 8B 07, Mov_r16_rm16, ShowUselessPrefixes=true
+16, 36 8B 07, Mov_r16_rm16, ShowUselessPrefixes=true
+16, 3E 8B 07, Mov_r16_rm16, ShowUselessPrefixes=true
+16, 64 8B 07, Mov_r16_rm16, ShowUselessPrefixes=true
+16, 65 8B 07, Mov_r16_rm16, ShowUselessPrefixes=true
+16, 26 8B 46 00, Mov_r16_rm16, ShowUselessPrefixes=true
+16, 2E 8B 46 00, Mov_r16_rm16, ShowUselessPrefixes=true
+16, 36 8B 46 00, Mov_r16_rm16, ShowUselessPrefixes=true
+16, 3E 8B 46 00, Mov_r16_rm16, ShowUselessPrefixes=true
+16, 64 8B 46 00, Mov_r16_rm16, ShowUselessPrefixes=true
+16, 65 8B 46 00, Mov_r16_rm16, ShowUselessPrefixes=true
+64, F3 8B CA, Mov_r32_rm32, ShowUselessPrefixes=true
+64, F2 8B CA, Mov_r32_rm32, ShowUselessPrefixes=true
+
+64, 62 E10F18 2A D3, EVEX_Vcvtsi2sd_xmm_xmm_rm32_er, ShowUselessPrefixes=false
+64, 62 714F30 2A D3, EVEX_Vcvtsi2sd_xmm_xmm_rm32_er, ShowUselessPrefixes=false
+64, 62 D14F58 2A D3, EVEX_Vcvtsi2sd_xmm_xmm_rm32_er, ShowUselessPrefixes=false
+64, 62 F14F78 2A D3, EVEX_Vcvtsi2sd_xmm_xmm_rm32_er, ShowUselessPrefixes=false
+64, 62 E10F18 7B D3, EVEX_Vcvtusi2sd_xmm_xmm_rm32_er, ShowUselessPrefixes=false
+64, 62 714F30 7B D3, EVEX_Vcvtusi2sd_xmm_xmm_rm32_er, ShowUselessPrefixes=false
+64, 62 D14F58 7B D3, EVEX_Vcvtusi2sd_xmm_xmm_rm32_er, ShowUselessPrefixes=false
+64, 62 F14F78 7B D3, EVEX_Vcvtusi2sd_xmm_xmm_rm32_er, ShowUselessPrefixes=false
+64, 62 F17E9B E6 D3, EVEX_Vcvtdq2pd_zmm_k1z_ymmm256b32_er, ShowUselessPrefixes=false
+64, 62 317E3B E6 D3, EVEX_Vcvtdq2pd_zmm_k1z_ymmm256b32_er, ShowUselessPrefixes=false
+64, 62 C17EDB E6 D3, EVEX_Vcvtdq2pd_zmm_k1z_ymmm256b32_er, ShowUselessPrefixes=false
+64, 62 F17E7B E6 D3, EVEX_Vcvtdq2pd_zmm_k1z_ymmm256b32_er, ShowUselessPrefixes=false
+64, 62 F17E9B 7A D3, EVEX_Vcvtudq2pd_zmm_k1z_ymmm256b32_er, ShowUselessPrefixes=false
+64, 62 317E3B 7A D3, EVEX_Vcvtudq2pd_zmm_k1z_ymmm256b32_er, ShowUselessPrefixes=false
+64, 62 C17EDB 7A D3, EVEX_Vcvtudq2pd_zmm_k1z_ymmm256b32_er, ShowUselessPrefixes=false
+64, 62 F17E7B 7A D3, EVEX_Vcvtudq2pd_zmm_k1z_ymmm256b32_er, ShowUselessPrefixes=false
+
+64, 62 E10F18 2A D3, EVEX_Vcvtsi2sd_xmm_xmm_rm32_er, ShowUselessPrefixes=true
+64, 62 714F30 2A D3, EVEX_Vcvtsi2sd_xmm_xmm_rm32_er, ShowUselessPrefixes=true
+64, 62 D14F58 2A D3, EVEX_Vcvtsi2sd_xmm_xmm_rm32_er, ShowUselessPrefixes=true
+64, 62 F14F78 2A D3, EVEX_Vcvtsi2sd_xmm_xmm_rm32_er, ShowUselessPrefixes=true
+64, 62 E10F18 7B D3, EVEX_Vcvtusi2sd_xmm_xmm_rm32_er, ShowUselessPrefixes=true
+64, 62 714F30 7B D3, EVEX_Vcvtusi2sd_xmm_xmm_rm32_er, ShowUselessPrefixes=true
+64, 62 D14F58 7B D3, EVEX_Vcvtusi2sd_xmm_xmm_rm32_er, ShowUselessPrefixes=true
+64, 62 F14F78 7B D3, EVEX_Vcvtusi2sd_xmm_xmm_rm32_er, ShowUselessPrefixes=true
+64, 62 F17E9B E6 D3, EVEX_Vcvtdq2pd_zmm_k1z_ymmm256b32_er, ShowUselessPrefixes=true
+64, 62 317E3B E6 D3, EVEX_Vcvtdq2pd_zmm_k1z_ymmm256b32_er, ShowUselessPrefixes=true
+64, 62 C17EDB E6 D3, EVEX_Vcvtdq2pd_zmm_k1z_ymmm256b32_er, ShowUselessPrefixes=true
+64, 62 F17E7B E6 D3, EVEX_Vcvtdq2pd_zmm_k1z_ymmm256b32_er, ShowUselessPrefixes=true
+64, 62 F17E9B 7A D3, EVEX_Vcvtudq2pd_zmm_k1z_ymmm256b32_er, ShowUselessPrefixes=true
+64, 62 317E3B 7A D3, EVEX_Vcvtudq2pd_zmm_k1z_ymmm256b32_er, ShowUselessPrefixes=true
+64, 62 C17EDB 7A D3, EVEX_Vcvtudq2pd_zmm_k1z_ymmm256b32_er, ShowUselessPrefixes=true
+64, 62 F17E7B 7A D3, EVEX_Vcvtudq2pd_zmm_k1z_ymmm256b32_er, ShowUselessPrefixes=true
+
+64, 26 A0 123456789ABCDEF0, Mov_AL_moffs8, ShowUselessPrefixes=false
+64, 2E A0 123456789ABCDEF0, Mov_AL_moffs8, ShowUselessPrefixes=false
+64, 36 A0 123456789ABCDEF0, Mov_AL_moffs8, ShowUselessPrefixes=false
+64, 3E A0 123456789ABCDEF0, Mov_AL_moffs8, ShowUselessPrefixes=false
+64, 64 A0 123456789ABCDEF0, Mov_AL_moffs8, ShowUselessPrefixes=false
+64, 65 A0 123456789ABCDEF0, Mov_AL_moffs8, ShowUselessPrefixes=false
+32, 26 A0 12345678, Mov_AL_moffs8, ShowUselessPrefixes=false
+32, 2E A0 12345678, Mov_AL_moffs8, ShowUselessPrefixes=false
+32, 36 A0 12345678, Mov_AL_moffs8, ShowUselessPrefixes=false
+32, 3E A0 12345678, Mov_AL_moffs8, ShowUselessPrefixes=false
+32, 64 A0 12345678, Mov_AL_moffs8, ShowUselessPrefixes=false
+32, 65 A0 12345678, Mov_AL_moffs8, ShowUselessPrefixes=false
+16, 26 A0 DEF0, Mov_AL_moffs8, ShowUselessPrefixes=false
+16, 2E A0 DEF0, Mov_AL_moffs8, ShowUselessPrefixes=false
+16, 36 A0 DEF0, Mov_AL_moffs8, ShowUselessPrefixes=false
+16, 3E A0 DEF0, Mov_AL_moffs8, ShowUselessPrefixes=false
+16, 64 A0 DEF0, Mov_AL_moffs8, ShowUselessPrefixes=false
+16, 65 A0 DEF0, Mov_AL_moffs8, ShowUselessPrefixes=false
+64, 26 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=false RipRelativeAddresses=false
+64, 2E 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=false RipRelativeAddresses=false
+64, 36 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=false RipRelativeAddresses=false
+64, 3E 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=false RipRelativeAddresses=false
+64, 64 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=false RipRelativeAddresses=false
+64, 65 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=false RipRelativeAddresses=false
+32, 26 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=false
+32, 2E 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=false
+32, 36 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=false
+32, 3E 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=false
+32, 64 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=false
+32, 65 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=false
+16, 26 8A 0E CCED, Mov_r8_rm8, ShowUselessPrefixes=false
+16, 2E 8A 0E CCED, Mov_r8_rm8, ShowUselessPrefixes=false
+16, 36 8A 0E CCED, Mov_r8_rm8, ShowUselessPrefixes=false
+16, 3E 8A 0E CCED, Mov_r8_rm8, ShowUselessPrefixes=false
+16, 64 8A 0E CCED, Mov_r8_rm8, ShowUselessPrefixes=false
+16, 65 8A 0E CCED, Mov_r8_rm8, ShowUselessPrefixes=false
+
+64, 26 A0 123456789ABCDEF0, Mov_AL_moffs8, ShowUselessPrefixes=true
+64, 2E A0 123456789ABCDEF0, Mov_AL_moffs8, ShowUselessPrefixes=true
+64, 36 A0 123456789ABCDEF0, Mov_AL_moffs8, ShowUselessPrefixes=true
+64, 3E A0 123456789ABCDEF0, Mov_AL_moffs8, ShowUselessPrefixes=true
+64, 64 A0 123456789ABCDEF0, Mov_AL_moffs8, ShowUselessPrefixes=true
+64, 65 A0 123456789ABCDEF0, Mov_AL_moffs8, ShowUselessPrefixes=true
+32, 26 A0 12345678, Mov_AL_moffs8, ShowUselessPrefixes=true
+32, 2E A0 12345678, Mov_AL_moffs8, ShowUselessPrefixes=true
+32, 36 A0 12345678, Mov_AL_moffs8, ShowUselessPrefixes=true
+32, 3E A0 12345678, Mov_AL_moffs8, ShowUselessPrefixes=true
+32, 64 A0 12345678, Mov_AL_moffs8, ShowUselessPrefixes=true
+32, 65 A0 12345678, Mov_AL_moffs8, ShowUselessPrefixes=true
+16, 26 A0 DEF0, Mov_AL_moffs8, ShowUselessPrefixes=true
+16, 2E A0 DEF0, Mov_AL_moffs8, ShowUselessPrefixes=true
+16, 36 A0 DEF0, Mov_AL_moffs8, ShowUselessPrefixes=true
+16, 3E A0 DEF0, Mov_AL_moffs8, ShowUselessPrefixes=true
+16, 64 A0 DEF0, Mov_AL_moffs8, ShowUselessPrefixes=true
+16, 65 A0 DEF0, Mov_AL_moffs8, ShowUselessPrefixes=true
+64, 26 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=true RipRelativeAddresses=false
+64, 2E 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=true RipRelativeAddresses=false
+64, 36 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=true RipRelativeAddresses=false
+64, 3E 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=true RipRelativeAddresses=false
+64, 64 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=true RipRelativeAddresses=false
+64, 65 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=true RipRelativeAddresses=false
+32, 26 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=true
+32, 2E 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=true
+32, 36 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=true
+32, 3E 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=true
+32, 64 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=true
+32, 65 8A 0D 88A9CBED, Mov_r8_rm8, ShowUselessPrefixes=true
+16, 26 8A 0E CCED, Mov_r8_rm8, ShowUselessPrefixes=true
+16, 2E 8A 0E CCED, Mov_r8_rm8, ShowUselessPrefixes=true
+16, 36 8A 0E CCED, Mov_r8_rm8, ShowUselessPrefixes=true
+16, 3E 8A 0E CCED, Mov_r8_rm8, ShowUselessPrefixes=true
+16, 64 8A 0E CCED, Mov_r8_rm8, ShowUselessPrefixes=true
+16, 65 8A 0E CCED, Mov_r8_rm8, ShowUselessPrefixes=true
+
+64, 26 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+64, 2E 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+64, 36 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+64, 3E 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+64, 64 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+64, 65 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+64, 26 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+64, 2E 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+64, 36 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+64, 3E 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+64, 64 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+64, 65 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+64, 26 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+64, 2E C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+64, 36 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+64, 3E C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+64, 64 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+64, 65 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+
+32, 26 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+32, 2E 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+32, 36 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+32, 3E 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+32, 64 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+32, 65 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+32, 26 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+32, 2E 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+32, 36 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+32, 3E 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+32, 64 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+32, 65 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+32, 26 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+32, 2E C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+32, 36 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+32, 3E C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+32, 64 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+32, 65 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+
+16, 26 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+16, 2E 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+16, 36 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+16, 3E 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+16, 64 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+16, 65 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=false
+16, 26 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+16, 2E 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+16, 36 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+16, 3E 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+16, 64 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+16, 65 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+16, 26 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+16, 2E C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+16, 36 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+16, 3E C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+16, 64 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+16, 65 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=false
+
+64, 26 0F01 C8, Monitorq, ShowUselessPrefixes=false
+64, 2E 0F01 C8, Monitorq, ShowUselessPrefixes=false
+64, 36 0F01 C8, Monitorq, ShowUselessPrefixes=false
+64, 3E 0F01 C8, Monitorq, ShowUselessPrefixes=false
+64, 64 0F01 C8, Monitorq, ShowUselessPrefixes=false
+64, 65 0F01 C8, Monitorq, ShowUselessPrefixes=false
+64, 26 0F01 FA, Monitorxq, ShowUselessPrefixes=false
+64, 2E 0F01 FA, Monitorxq, ShowUselessPrefixes=false
+64, 36 0F01 FA, Monitorxq, ShowUselessPrefixes=false
+64, 3E 0F01 FA, Monitorxq, ShowUselessPrefixes=false
+64, 64 0F01 FA, Monitorxq, ShowUselessPrefixes=false
+64, 65 0F01 FA, Monitorxq, ShowUselessPrefixes=false
+64, 26 0F01 FC, Clzeroq, ShowUselessPrefixes=false
+64, 2E 0F01 FC, Clzeroq, ShowUselessPrefixes=false
+64, 36 0F01 FC, Clzeroq, ShowUselessPrefixes=false
+64, 3E 0F01 FC, Clzeroq, ShowUselessPrefixes=false
+64, 64 0F01 FC, Clzeroq, ShowUselessPrefixes=false
+64, 65 0F01 FC, Clzeroq, ShowUselessPrefixes=false
+64, 26 F3 0FAE F5, Umonitor_r64, ShowUselessPrefixes=false
+64, 2E F3 0FAE F5, Umonitor_r64, ShowUselessPrefixes=false
+64, 36 F3 0FAE F5, Umonitor_r64, ShowUselessPrefixes=false
+64, 3E F3 0FAE F5, Umonitor_r64, ShowUselessPrefixes=false
+64, 64 F3 0FAE F5, Umonitor_r64, ShowUselessPrefixes=false
+64, 65 F3 0FAE F5, Umonitor_r64, ShowUselessPrefixes=false
+
+32, 26 0F01 C8, Monitord, ShowUselessPrefixes=false
+32, 2E 0F01 C8, Monitord, ShowUselessPrefixes=false
+32, 36 0F01 C8, Monitord, ShowUselessPrefixes=false
+32, 3E 0F01 C8, Monitord, ShowUselessPrefixes=false
+32, 64 0F01 C8, Monitord, ShowUselessPrefixes=false
+32, 65 0F01 C8, Monitord, ShowUselessPrefixes=false
+32, 26 0F01 FA, Monitorxd, ShowUselessPrefixes=false
+32, 2E 0F01 FA, Monitorxd, ShowUselessPrefixes=false
+32, 36 0F01 FA, Monitorxd, ShowUselessPrefixes=false
+32, 3E 0F01 FA, Monitorxd, ShowUselessPrefixes=false
+32, 64 0F01 FA, Monitorxd, ShowUselessPrefixes=false
+32, 65 0F01 FA, Monitorxd, ShowUselessPrefixes=false
+32, 26 0F01 FC, Clzerod, ShowUselessPrefixes=false
+32, 2E 0F01 FC, Clzerod, ShowUselessPrefixes=false
+32, 36 0F01 FC, Clzerod, ShowUselessPrefixes=false
+32, 3E 0F01 FC, Clzerod, ShowUselessPrefixes=false
+32, 64 0F01 FC, Clzerod, ShowUselessPrefixes=false
+32, 65 0F01 FC, Clzerod, ShowUselessPrefixes=false
+32, 26 F3 0FAE F5, Umonitor_r32, ShowUselessPrefixes=false
+32, 2E F3 0FAE F5, Umonitor_r32, ShowUselessPrefixes=false
+32, 36 F3 0FAE F5, Umonitor_r32, ShowUselessPrefixes=false
+32, 3E F3 0FAE F5, Umonitor_r32, ShowUselessPrefixes=false
+32, 64 F3 0FAE F5, Umonitor_r32, ShowUselessPrefixes=false
+32, 65 F3 0FAE F5, Umonitor_r32, ShowUselessPrefixes=false
+
+16, 26 0F01 C8, Monitorw, ShowUselessPrefixes=false
+16, 2E 0F01 C8, Monitorw, ShowUselessPrefixes=false
+16, 36 0F01 C8, Monitorw, ShowUselessPrefixes=false
+16, 3E 0F01 C8, Monitorw, ShowUselessPrefixes=false
+16, 64 0F01 C8, Monitorw, ShowUselessPrefixes=false
+16, 65 0F01 C8, Monitorw, ShowUselessPrefixes=false
+16, 26 0F01 FA, Monitorxw, ShowUselessPrefixes=false
+16, 2E 0F01 FA, Monitorxw, ShowUselessPrefixes=false
+16, 36 0F01 FA, Monitorxw, ShowUselessPrefixes=false
+16, 3E 0F01 FA, Monitorxw, ShowUselessPrefixes=false
+16, 64 0F01 FA, Monitorxw, ShowUselessPrefixes=false
+16, 65 0F01 FA, Monitorxw, ShowUselessPrefixes=false
+16, 26 0F01 FC, Clzerow, ShowUselessPrefixes=false
+16, 2E 0F01 FC, Clzerow, ShowUselessPrefixes=false
+16, 36 0F01 FC, Clzerow, ShowUselessPrefixes=false
+16, 3E 0F01 FC, Clzerow, ShowUselessPrefixes=false
+16, 64 0F01 FC, Clzerow, ShowUselessPrefixes=false
+16, 65 0F01 FC, Clzerow, ShowUselessPrefixes=false
+16, 26 F3 0FAE F5, Umonitor_r16, ShowUselessPrefixes=false
+16, 2E F3 0FAE F5, Umonitor_r16, ShowUselessPrefixes=false
+16, 36 F3 0FAE F5, Umonitor_r16, ShowUselessPrefixes=false
+16, 3E F3 0FAE F5, Umonitor_r16, ShowUselessPrefixes=false
+16, 64 F3 0FAE F5, Umonitor_r16, ShowUselessPrefixes=false
+16, 65 F3 0FAE F5, Umonitor_r16, ShowUselessPrefixes=false
+
+64, 26 D7, Xlat_m8, ShowUselessPrefixes=false
+64, 2E D7, Xlat_m8, ShowUselessPrefixes=false
+64, 36 D7, Xlat_m8, ShowUselessPrefixes=false
+64, 3E D7, Xlat_m8, ShowUselessPrefixes=false
+64, 64 D7, Xlat_m8, ShowUselessPrefixes=false
+64, 65 D7, Xlat_m8, ShowUselessPrefixes=false
+64, 26 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+64, 2E 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+64, 36 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+64, 3E 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+64, 64 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+64, 65 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+64, 26 66 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+64, 2E 66 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+64, 36 66 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+64, 3E 66 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+64, 64 66 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+64, 65 66 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+64, 26 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+64, 2E 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+64, 36 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+64, 3E 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+64, 64 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+64, 65 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+64, 26 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+64, 2E A4, Movsb_m8_m8, ShowUselessPrefixes=false
+64, 36 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+64, 3E A4, Movsb_m8_m8, ShowUselessPrefixes=false
+64, 64 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+64, 65 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+64, 26 66 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+64, 2E 66 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+64, 36 66 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+64, 3E 66 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+64, 64 66 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+64, 65 66 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+64, 26 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+64, 2E A5, Movsd_m32_m32, ShowUselessPrefixes=false
+64, 36 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+64, 3E A5, Movsd_m32_m32, ShowUselessPrefixes=false
+64, 64 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+64, 65 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+64, 26 48 A5, Movsq_m64_m64, ShowUselessPrefixes=false
+64, 2E 48 A5, Movsq_m64_m64, ShowUselessPrefixes=false
+64, 36 48 A5, Movsq_m64_m64, ShowUselessPrefixes=false
+64, 3E 48 A5, Movsq_m64_m64, ShowUselessPrefixes=false
+64, 64 48 A5, Movsq_m64_m64, ShowUselessPrefixes=false
+64, 65 48 A5, Movsq_m64_m64, ShowUselessPrefixes=false
+64, 26 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+64, 2E A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+64, 36 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+64, 3E A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+64, 64 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+64, 65 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+64, 26 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+64, 2E 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+64, 36 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+64, 3E 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+64, 64 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+64, 65 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+64, 26 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+64, 2E A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+64, 36 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+64, 3E A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+64, 64 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+64, 65 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+64, 26 48 A7, Cmpsq_m64_m64, ShowUselessPrefixes=false
+64, 2E 48 A7, Cmpsq_m64_m64, ShowUselessPrefixes=false
+64, 36 48 A7, Cmpsq_m64_m64, ShowUselessPrefixes=false
+64, 3E 48 A7, Cmpsq_m64_m64, ShowUselessPrefixes=false
+64, 64 48 A7, Cmpsq_m64_m64, ShowUselessPrefixes=false
+64, 65 48 A7, Cmpsq_m64_m64, ShowUselessPrefixes=false
+64, 26 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+64, 2E AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+64, 36 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+64, 3E AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+64, 64 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+64, 65 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+64, 26 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+64, 2E 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+64, 36 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+64, 3E 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+64, 64 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+64, 65 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+64, 26 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+64, 2E AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+64, 36 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+64, 3E AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+64, 64 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+64, 65 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+64, 26 48 AD, Lodsq_RAX_m64, ShowUselessPrefixes=false
+64, 2E 48 AD, Lodsq_RAX_m64, ShowUselessPrefixes=false
+64, 36 48 AD, Lodsq_RAX_m64, ShowUselessPrefixes=false
+64, 3E 48 AD, Lodsq_RAX_m64, ShowUselessPrefixes=false
+64, 64 48 AD, Lodsq_RAX_m64, ShowUselessPrefixes=false
+64, 65 48 AD, Lodsq_RAX_m64, ShowUselessPrefixes=false
+
+32, 26 D7, Xlat_m8, ShowUselessPrefixes=false
+32, 2E D7, Xlat_m8, ShowUselessPrefixes=false
+32, 36 D7, Xlat_m8, ShowUselessPrefixes=false
+32, 3E D7, Xlat_m8, ShowUselessPrefixes=false
+32, 64 D7, Xlat_m8, ShowUselessPrefixes=false
+32, 65 D7, Xlat_m8, ShowUselessPrefixes=false
+32, 26 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+32, 2E 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+32, 36 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+32, 3E 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+32, 64 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+32, 65 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+32, 26 66 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+32, 2E 66 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+32, 36 66 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+32, 3E 66 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+32, 64 66 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+32, 65 66 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+32, 26 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+32, 2E 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+32, 36 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+32, 3E 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+32, 64 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+32, 65 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+32, 26 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+32, 2E A4, Movsb_m8_m8, ShowUselessPrefixes=false
+32, 36 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+32, 3E A4, Movsb_m8_m8, ShowUselessPrefixes=false
+32, 64 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+32, 65 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+32, 26 66 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+32, 2E 66 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+32, 36 66 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+32, 3E 66 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+32, 64 66 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+32, 65 66 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+32, 26 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+32, 2E A5, Movsd_m32_m32, ShowUselessPrefixes=false
+32, 36 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+32, 3E A5, Movsd_m32_m32, ShowUselessPrefixes=false
+32, 64 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+32, 65 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+32, 26 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+32, 2E A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+32, 36 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+32, 3E A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+32, 64 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+32, 65 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+32, 26 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+32, 2E 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+32, 36 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+32, 3E 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+32, 64 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+32, 65 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+32, 26 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+32, 2E A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+32, 36 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+32, 3E A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+32, 64 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+32, 65 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+32, 26 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+32, 2E AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+32, 36 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+32, 3E AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+32, 64 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+32, 65 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+32, 26 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+32, 2E 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+32, 36 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+32, 3E 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+32, 64 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+32, 65 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+32, 26 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+32, 2E AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+32, 36 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+32, 3E AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+32, 64 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+32, 65 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+
+16, 26 D7, Xlat_m8, ShowUselessPrefixes=false
+16, 2E D7, Xlat_m8, ShowUselessPrefixes=false
+16, 36 D7, Xlat_m8, ShowUselessPrefixes=false
+16, 3E D7, Xlat_m8, ShowUselessPrefixes=false
+16, 64 D7, Xlat_m8, ShowUselessPrefixes=false
+16, 65 D7, Xlat_m8, ShowUselessPrefixes=false
+16, 26 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+16, 2E 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+16, 36 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+16, 3E 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+16, 64 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+16, 65 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+16, 26 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+16, 2E 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+16, 36 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+16, 3E 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+16, 64 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+16, 65 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+16, 26 66 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+16, 2E 66 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+16, 36 66 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+16, 3E 66 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+16, 64 66 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+16, 65 66 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+16, 26 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+16, 2E A4, Movsb_m8_m8, ShowUselessPrefixes=false
+16, 36 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+16, 3E A4, Movsb_m8_m8, ShowUselessPrefixes=false
+16, 64 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+16, 65 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+16, 26 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+16, 2E A5, Movsw_m16_m16, ShowUselessPrefixes=false
+16, 36 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+16, 3E A5, Movsw_m16_m16, ShowUselessPrefixes=false
+16, 64 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+16, 65 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+16, 26 66 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+16, 2E 66 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+16, 36 66 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+16, 3E 66 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+16, 64 66 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+16, 65 66 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+16, 26 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+16, 2E A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+16, 36 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+16, 3E A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+16, 64 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+16, 65 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+16, 26 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+16, 2E A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+16, 36 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+16, 3E A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+16, 64 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+16, 65 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+16, 26 66 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+16, 2E 66 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+16, 36 66 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+16, 3E 66 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+16, 64 66 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+16, 65 66 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+16, 26 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+16, 2E AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+16, 36 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+16, 3E AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+16, 64 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+16, 65 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+16, 26 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+16, 2E AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+16, 36 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+16, 3E AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+16, 64 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+16, 65 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+16, 26 66 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+16, 2E 66 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+16, 36 66 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+16, 3E 66 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+16, 64 66 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+16, 65 66 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+
+64, 26 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+64, 2E 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+64, 36 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+64, 3E 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+64, 64 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+64, 65 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+64, 26 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+64, 2E 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+64, 36 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+64, 3E 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+64, 64 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+64, 65 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+64, 26 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+64, 2E C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+64, 36 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+64, 3E C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+64, 64 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+64, 65 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+
+32, 26 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+32, 2E 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+32, 36 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+32, 3E 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+32, 64 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+32, 65 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+32, 26 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+32, 2E 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+32, 36 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+32, 3E 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+32, 64 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+32, 65 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+32, 26 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+32, 2E C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+32, 36 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+32, 3E C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+32, 64 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+32, 65 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+
+16, 26 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+16, 2E 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+16, 36 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+16, 3E 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+16, 64 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+16, 65 0FF7 D3, Maskmovq_rDI_mm_mm, ShowUselessPrefixes=true
+16, 26 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+16, 2E 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+16, 36 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+16, 3E 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+16, 64 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+16, 65 66 0FF7 D3, Maskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+16, 26 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+16, 2E C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+16, 36 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+16, 3E C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+16, 64 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+16, 65 C5F9 F7 D3, VEX_Vmaskmovdqu_rDI_xmm_xmm, ShowUselessPrefixes=true
+
+64, 26 0F01 C8, Monitorq, ShowUselessPrefixes=true
+64, 2E 0F01 C8, Monitorq, ShowUselessPrefixes=true
+64, 36 0F01 C8, Monitorq, ShowUselessPrefixes=true
+64, 3E 0F01 C8, Monitorq, ShowUselessPrefixes=true
+64, 64 0F01 C8, Monitorq, ShowUselessPrefixes=true
+64, 65 0F01 C8, Monitorq, ShowUselessPrefixes=true
+64, 26 0F01 FA, Monitorxq, ShowUselessPrefixes=true
+64, 2E 0F01 FA, Monitorxq, ShowUselessPrefixes=true
+64, 36 0F01 FA, Monitorxq, ShowUselessPrefixes=true
+64, 3E 0F01 FA, Monitorxq, ShowUselessPrefixes=true
+64, 64 0F01 FA, Monitorxq, ShowUselessPrefixes=true
+64, 65 0F01 FA, Monitorxq, ShowUselessPrefixes=true
+64, 26 0F01 FC, Clzeroq, ShowUselessPrefixes=true
+64, 2E 0F01 FC, Clzeroq, ShowUselessPrefixes=true
+64, 36 0F01 FC, Clzeroq, ShowUselessPrefixes=true
+64, 3E 0F01 FC, Clzeroq, ShowUselessPrefixes=true
+64, 64 0F01 FC, Clzeroq, ShowUselessPrefixes=true
+64, 65 0F01 FC, Clzeroq, ShowUselessPrefixes=true
+64, 26 F3 0FAE F5, Umonitor_r64, ShowUselessPrefixes=true
+64, 2E F3 0FAE F5, Umonitor_r64, ShowUselessPrefixes=true
+64, 36 F3 0FAE F5, Umonitor_r64, ShowUselessPrefixes=true
+64, 3E F3 0FAE F5, Umonitor_r64, ShowUselessPrefixes=true
+64, 64 F3 0FAE F5, Umonitor_r64, ShowUselessPrefixes=true
+64, 65 F3 0FAE F5, Umonitor_r64, ShowUselessPrefixes=true
+
+32, 26 0F01 C8, Monitord, ShowUselessPrefixes=true
+32, 2E 0F01 C8, Monitord, ShowUselessPrefixes=true
+32, 36 0F01 C8, Monitord, ShowUselessPrefixes=true
+32, 3E 0F01 C8, Monitord, ShowUselessPrefixes=true
+32, 64 0F01 C8, Monitord, ShowUselessPrefixes=true
+32, 65 0F01 C8, Monitord, ShowUselessPrefixes=true
+32, 26 0F01 FA, Monitorxd, ShowUselessPrefixes=true
+32, 2E 0F01 FA, Monitorxd, ShowUselessPrefixes=true
+32, 36 0F01 FA, Monitorxd, ShowUselessPrefixes=true
+32, 3E 0F01 FA, Monitorxd, ShowUselessPrefixes=true
+32, 64 0F01 FA, Monitorxd, ShowUselessPrefixes=true
+32, 65 0F01 FA, Monitorxd, ShowUselessPrefixes=true
+32, 26 0F01 FC, Clzerod, ShowUselessPrefixes=true
+32, 2E 0F01 FC, Clzerod, ShowUselessPrefixes=true
+32, 36 0F01 FC, Clzerod, ShowUselessPrefixes=true
+32, 3E 0F01 FC, Clzerod, ShowUselessPrefixes=true
+32, 64 0F01 FC, Clzerod, ShowUselessPrefixes=true
+32, 65 0F01 FC, Clzerod, ShowUselessPrefixes=true
+32, 26 F3 0FAE F5, Umonitor_r32, ShowUselessPrefixes=true
+32, 2E F3 0FAE F5, Umonitor_r32, ShowUselessPrefixes=true
+32, 36 F3 0FAE F5, Umonitor_r32, ShowUselessPrefixes=true
+32, 3E F3 0FAE F5, Umonitor_r32, ShowUselessPrefixes=true
+32, 64 F3 0FAE F5, Umonitor_r32, ShowUselessPrefixes=true
+32, 65 F3 0FAE F5, Umonitor_r32, ShowUselessPrefixes=true
+
+16, 26 0F01 C8, Monitorw, ShowUselessPrefixes=true
+16, 2E 0F01 C8, Monitorw, ShowUselessPrefixes=true
+16, 36 0F01 C8, Monitorw, ShowUselessPrefixes=true
+16, 3E 0F01 C8, Monitorw, ShowUselessPrefixes=true
+16, 64 0F01 C8, Monitorw, ShowUselessPrefixes=true
+16, 65 0F01 C8, Monitorw, ShowUselessPrefixes=true
+16, 26 0F01 FA, Monitorxw, ShowUselessPrefixes=true
+16, 2E 0F01 FA, Monitorxw, ShowUselessPrefixes=true
+16, 36 0F01 FA, Monitorxw, ShowUselessPrefixes=true
+16, 3E 0F01 FA, Monitorxw, ShowUselessPrefixes=true
+16, 64 0F01 FA, Monitorxw, ShowUselessPrefixes=true
+16, 65 0F01 FA, Monitorxw, ShowUselessPrefixes=true
+16, 26 0F01 FC, Clzerow, ShowUselessPrefixes=true
+16, 2E 0F01 FC, Clzerow, ShowUselessPrefixes=true
+16, 36 0F01 FC, Clzerow, ShowUselessPrefixes=true
+16, 3E 0F01 FC, Clzerow, ShowUselessPrefixes=true
+16, 64 0F01 FC, Clzerow, ShowUselessPrefixes=true
+16, 65 0F01 FC, Clzerow, ShowUselessPrefixes=true
+16, 26 F3 0FAE F5, Umonitor_r16, ShowUselessPrefixes=true
+16, 2E F3 0FAE F5, Umonitor_r16, ShowUselessPrefixes=true
+16, 36 F3 0FAE F5, Umonitor_r16, ShowUselessPrefixes=true
+16, 3E F3 0FAE F5, Umonitor_r16, ShowUselessPrefixes=true
+16, 64 F3 0FAE F5, Umonitor_r16, ShowUselessPrefixes=true
+16, 65 F3 0FAE F5, Umonitor_r16, ShowUselessPrefixes=true
+
+64, 26 D7, Xlat_m8, ShowUselessPrefixes=true
+64, 2E D7, Xlat_m8, ShowUselessPrefixes=true
+64, 36 D7, Xlat_m8, ShowUselessPrefixes=true
+64, 3E D7, Xlat_m8, ShowUselessPrefixes=true
+64, 64 D7, Xlat_m8, ShowUselessPrefixes=true
+64, 65 D7, Xlat_m8, ShowUselessPrefixes=true
+64, 26 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+64, 2E 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+64, 36 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+64, 3E 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+64, 64 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+64, 65 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+64, 26 66 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+64, 2E 66 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+64, 36 66 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+64, 3E 66 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+64, 64 66 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+64, 65 66 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+64, 26 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+64, 2E 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+64, 36 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+64, 3E 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+64, 64 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+64, 65 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+64, 26 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+64, 2E A4, Movsb_m8_m8, ShowUselessPrefixes=true
+64, 36 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+64, 3E A4, Movsb_m8_m8, ShowUselessPrefixes=true
+64, 64 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+64, 65 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+64, 26 66 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+64, 2E 66 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+64, 36 66 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+64, 3E 66 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+64, 64 66 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+64, 65 66 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+64, 26 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+64, 2E A5, Movsd_m32_m32, ShowUselessPrefixes=true
+64, 36 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+64, 3E A5, Movsd_m32_m32, ShowUselessPrefixes=true
+64, 64 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+64, 65 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+64, 26 48 A5, Movsq_m64_m64, ShowUselessPrefixes=true
+64, 2E 48 A5, Movsq_m64_m64, ShowUselessPrefixes=true
+64, 36 48 A5, Movsq_m64_m64, ShowUselessPrefixes=true
+64, 3E 48 A5, Movsq_m64_m64, ShowUselessPrefixes=true
+64, 64 48 A5, Movsq_m64_m64, ShowUselessPrefixes=true
+64, 65 48 A5, Movsq_m64_m64, ShowUselessPrefixes=true
+64, 26 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+64, 2E A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+64, 36 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+64, 3E A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+64, 64 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+64, 65 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+64, 26 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+64, 2E 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+64, 36 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+64, 3E 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+64, 64 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+64, 65 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+64, 26 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+64, 2E A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+64, 36 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+64, 3E A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+64, 64 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+64, 65 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+64, 26 48 A7, Cmpsq_m64_m64, ShowUselessPrefixes=true
+64, 2E 48 A7, Cmpsq_m64_m64, ShowUselessPrefixes=true
+64, 36 48 A7, Cmpsq_m64_m64, ShowUselessPrefixes=true
+64, 3E 48 A7, Cmpsq_m64_m64, ShowUselessPrefixes=true
+64, 64 48 A7, Cmpsq_m64_m64, ShowUselessPrefixes=true
+64, 65 48 A7, Cmpsq_m64_m64, ShowUselessPrefixes=true
+64, 26 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+64, 2E AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+64, 36 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+64, 3E AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+64, 64 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+64, 65 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+64, 26 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+64, 2E 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+64, 36 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+64, 3E 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+64, 64 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+64, 65 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+64, 26 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+64, 2E AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+64, 36 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+64, 3E AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+64, 64 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+64, 65 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+64, 26 48 AD, Lodsq_RAX_m64, ShowUselessPrefixes=true
+64, 2E 48 AD, Lodsq_RAX_m64, ShowUselessPrefixes=true
+64, 36 48 AD, Lodsq_RAX_m64, ShowUselessPrefixes=true
+64, 3E 48 AD, Lodsq_RAX_m64, ShowUselessPrefixes=true
+64, 64 48 AD, Lodsq_RAX_m64, ShowUselessPrefixes=true
+64, 65 48 AD, Lodsq_RAX_m64, ShowUselessPrefixes=true
+
+32, 26 D7, Xlat_m8, ShowUselessPrefixes=true
+32, 2E D7, Xlat_m8, ShowUselessPrefixes=true
+32, 36 D7, Xlat_m8, ShowUselessPrefixes=true
+32, 3E D7, Xlat_m8, ShowUselessPrefixes=true
+32, 64 D7, Xlat_m8, ShowUselessPrefixes=true
+32, 65 D7, Xlat_m8, ShowUselessPrefixes=true
+32, 26 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+32, 2E 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+32, 36 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+32, 3E 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+32, 64 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+32, 65 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+32, 26 66 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+32, 2E 66 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+32, 36 66 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+32, 3E 66 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+32, 64 66 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+32, 65 66 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+32, 26 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+32, 2E 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+32, 36 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+32, 3E 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+32, 64 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+32, 65 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+32, 26 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+32, 2E A4, Movsb_m8_m8, ShowUselessPrefixes=true
+32, 36 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+32, 3E A4, Movsb_m8_m8, ShowUselessPrefixes=true
+32, 64 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+32, 65 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+32, 26 66 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+32, 2E 66 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+32, 36 66 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+32, 3E 66 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+32, 64 66 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+32, 65 66 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+32, 26 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+32, 2E A5, Movsd_m32_m32, ShowUselessPrefixes=true
+32, 36 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+32, 3E A5, Movsd_m32_m32, ShowUselessPrefixes=true
+32, 64 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+32, 65 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+32, 26 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+32, 2E A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+32, 36 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+32, 3E A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+32, 64 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+32, 65 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+32, 26 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+32, 2E 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+32, 36 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+32, 3E 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+32, 64 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+32, 65 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+32, 26 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+32, 2E A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+32, 36 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+32, 3E A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+32, 64 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+32, 65 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+32, 26 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+32, 2E AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+32, 36 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+32, 3E AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+32, 64 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+32, 65 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+32, 26 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+32, 2E 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+32, 36 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+32, 3E 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+32, 64 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+32, 65 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+32, 26 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+32, 2E AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+32, 36 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+32, 3E AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+32, 64 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+32, 65 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+
+16, 26 D7, Xlat_m8, ShowUselessPrefixes=true
+16, 2E D7, Xlat_m8, ShowUselessPrefixes=true
+16, 36 D7, Xlat_m8, ShowUselessPrefixes=true
+16, 3E D7, Xlat_m8, ShowUselessPrefixes=true
+16, 64 D7, Xlat_m8, ShowUselessPrefixes=true
+16, 65 D7, Xlat_m8, ShowUselessPrefixes=true
+16, 26 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+16, 2E 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+16, 36 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+16, 3E 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+16, 64 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+16, 65 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+16, 26 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+16, 2E 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+16, 36 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+16, 3E 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+16, 64 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+16, 65 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+16, 26 66 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+16, 2E 66 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+16, 36 66 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+16, 3E 66 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+16, 64 66 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+16, 65 66 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+16, 26 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+16, 2E A4, Movsb_m8_m8, ShowUselessPrefixes=true
+16, 36 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+16, 3E A4, Movsb_m8_m8, ShowUselessPrefixes=true
+16, 64 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+16, 65 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+16, 26 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+16, 2E A5, Movsw_m16_m16, ShowUselessPrefixes=true
+16, 36 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+16, 3E A5, Movsw_m16_m16, ShowUselessPrefixes=true
+16, 64 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+16, 65 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+16, 26 66 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+16, 2E 66 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+16, 36 66 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+16, 3E 66 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+16, 64 66 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+16, 65 66 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+16, 26 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+16, 2E A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+16, 36 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+16, 3E A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+16, 64 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+16, 65 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+16, 26 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+16, 2E A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+16, 36 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+16, 3E A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+16, 64 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+16, 65 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+16, 26 66 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+16, 2E 66 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+16, 36 66 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+16, 3E 66 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+16, 64 66 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+16, 65 66 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+16, 26 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+16, 2E AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+16, 36 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+16, 3E AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+16, 64 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+16, 65 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+16, 26 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+16, 2E AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+16, 36 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+16, 3E AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+16, 64 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+16, 65 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+16, 26 66 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+16, 2E 66 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+16, 36 66 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+16, 3E 66 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+16, 64 66 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+16, 65 66 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+
+64, F3 6C, Insb_m8_DX, ShowUselessPrefixes=false
+64, F3 66 6D, Insw_m16_DX, ShowUselessPrefixes=false
+64, F3 6D, Insd_m32_DX, ShowUselessPrefixes=false
+64, F3 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+64, F3 66 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+64, F3 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+64, F3 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+64, F3 66 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+64, F3 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+64, F3 48 A5, Movsq_m64_m64, ShowUselessPrefixes=false
+64, F3 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+64, F3 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+64, F3 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+64, F3 48 A7, Cmpsq_m64_m64, ShowUselessPrefixes=false
+64, F3 AA, Stosb_m8_AL, ShowUselessPrefixes=false
+64, F3 66 AB, Stosw_m16_AX, ShowUselessPrefixes=false
+64, F3 AB, Stosd_m32_EAX, ShowUselessPrefixes=false
+64, F3 48 AB, Stosq_m64_RAX, ShowUselessPrefixes=false
+64, F3 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+64, F3 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+64, F3 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+64, F3 48 AD, Lodsq_RAX_m64, ShowUselessPrefixes=false
+64, F3 AE, Scasb_AL_m8, ShowUselessPrefixes=false
+64, F3 66 AF, Scasw_AX_m16, ShowUselessPrefixes=false
+64, F3 AF, Scasd_EAX_m32, ShowUselessPrefixes=false
+64, F3 48 AF, Scasq_RAX_m64, ShowUselessPrefixes=false
+64, F3 0FA6 C0, Montmul_64, ShowUselessPrefixes=false DecoderOptions=NoInvalidCheck
+64, F3 0FA6 C8, Xsha1_64, ShowUselessPrefixes=false
+64, F3 0FA6 D0, Xsha256_64, ShowUselessPrefixes=false
+64, F3 0FA7 C0, Xstore_64, ShowUselessPrefixes=false
+64, F3 0FA7 C8, Xcryptecb_64, ShowUselessPrefixes=false
+64, F3 0FA7 D0, Xcryptcbc_64, ShowUselessPrefixes=false
+64, F3 0FA7 D8, Xcryptctr_64, ShowUselessPrefixes=false
+64, F3 0FA7 E0, Xcryptcfb_64, ShowUselessPrefixes=false
+64, F3 0FA7 E8, Xcryptofb_64, ShowUselessPrefixes=false
+64, F3 0FA6 E8, Ccs_hash_64, ShowUselessPrefixes=false
+64, F3 0FA7 F0, Ccs_encrypt_64, ShowUselessPrefixes=false
+64, F3 0FA6 F0, Via_undoc_F30FA6F0_64, ShowUselessPrefixes=false
+64, F3 0FA6 F8, Via_undoc_F30FA6F8_64, ShowUselessPrefixes=false
+64, F3 0FA6 E0, Xsha512_64, ShowUselessPrefixes=false
+64, F3 0FA7 F8, Xstore_alt_64, ShowUselessPrefixes=false
+64, F3 0FA6 D8, Xsha512_alt_64, ShowUselessPrefixes=false
+
+64, F2 6C, Insb_m8_DX, ShowUselessPrefixes=false
+64, F2 66 6D, Insw_m16_DX, ShowUselessPrefixes=false
+64, F2 6D, Insd_m32_DX, ShowUselessPrefixes=false
+64, F2 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+64, F2 66 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+64, F2 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+64, F2 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+64, F2 66 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+64, F2 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+64, F2 48 A5, Movsq_m64_m64, ShowUselessPrefixes=false
+64, F2 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+64, F2 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+64, F2 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+64, F2 48 A7, Cmpsq_m64_m64, ShowUselessPrefixes=false
+64, F2 AA, Stosb_m8_AL, ShowUselessPrefixes=false
+64, F2 66 AB, Stosw_m16_AX, ShowUselessPrefixes=false
+64, F2 AB, Stosd_m32_EAX, ShowUselessPrefixes=false
+64, F2 48 AB, Stosq_m64_RAX, ShowUselessPrefixes=false
+64, F2 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+64, F2 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+64, F2 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+64, F2 48 AD, Lodsq_RAX_m64, ShowUselessPrefixes=false
+64, F2 AE, Scasb_AL_m8, ShowUselessPrefixes=false
+64, F2 66 AF, Scasw_AX_m16, ShowUselessPrefixes=false
+64, F2 AF, Scasd_EAX_m32, ShowUselessPrefixes=false
+64, F2 48 AF, Scasq_RAX_m64, ShowUselessPrefixes=false
+
+32, F3 6C, Insb_m8_DX, ShowUselessPrefixes=false
+32, F3 66 6D, Insw_m16_DX, ShowUselessPrefixes=false
+32, F3 6D, Insd_m32_DX, ShowUselessPrefixes=false
+32, F3 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+32, F3 66 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+32, F3 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+32, F3 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+32, F3 66 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+32, F3 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+32, F3 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+32, F3 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+32, F3 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+32, F3 AA, Stosb_m8_AL, ShowUselessPrefixes=false
+32, F3 66 AB, Stosw_m16_AX, ShowUselessPrefixes=false
+32, F3 AB, Stosd_m32_EAX, ShowUselessPrefixes=false
+32, F3 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+32, F3 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+32, F3 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+32, F3 AE, Scasb_AL_m8, ShowUselessPrefixes=false
+32, F3 66 AF, Scasw_AX_m16, ShowUselessPrefixes=false
+32, F3 AF, Scasd_EAX_m32, ShowUselessPrefixes=false
+32, F3 0FA6 C0, Montmul_32, ShowUselessPrefixes=false
+32, F3 0FA6 C8, Xsha1_32, ShowUselessPrefixes=false
+32, F3 0FA6 D0, Xsha256_32, ShowUselessPrefixes=false
+32, F3 0FA7 C0, Xstore_32, ShowUselessPrefixes=false
+32, F3 0FA7 C8, Xcryptecb_32, ShowUselessPrefixes=false
+32, F3 0FA7 D0, Xcryptcbc_32, ShowUselessPrefixes=false
+32, F3 0FA7 D8, Xcryptctr_32, ShowUselessPrefixes=false
+32, F3 0FA7 E0, Xcryptcfb_32, ShowUselessPrefixes=false
+32, F3 0FA7 E8, Xcryptofb_32, ShowUselessPrefixes=false
+32, F3 0FA6 E8, Ccs_hash_32, ShowUselessPrefixes=false
+32, F3 0FA7 F0, Ccs_encrypt_32, ShowUselessPrefixes=false
+32, F3 0FA6 F0, Via_undoc_F30FA6F0_32, ShowUselessPrefixes=false
+32, F3 0FA6 F8, Via_undoc_F30FA6F8_32, ShowUselessPrefixes=false
+32, F3 0FA6 E0, Xsha512_32, ShowUselessPrefixes=false
+32, F3 0FA7 F8, Xstore_alt_32, ShowUselessPrefixes=false
+32, F3 0FA6 D8, Xsha512_alt_32, ShowUselessPrefixes=false
+
+32, F2 6C, Insb_m8_DX, ShowUselessPrefixes=false
+32, F2 66 6D, Insw_m16_DX, ShowUselessPrefixes=false
+32, F2 6D, Insd_m32_DX, ShowUselessPrefixes=false
+32, F2 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+32, F2 66 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+32, F2 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+32, F2 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+32, F2 66 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+32, F2 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+32, F2 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+32, F2 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+32, F2 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+32, F2 AA, Stosb_m8_AL, ShowUselessPrefixes=false
+32, F2 66 AB, Stosw_m16_AX, ShowUselessPrefixes=false
+32, F2 AB, Stosd_m32_EAX, ShowUselessPrefixes=false
+32, F2 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+32, F2 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+32, F2 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+32, F2 AE, Scasb_AL_m8, ShowUselessPrefixes=false
+32, F2 66 AF, Scasw_AX_m16, ShowUselessPrefixes=false
+32, F2 AF, Scasd_EAX_m32, ShowUselessPrefixes=false
+
+16, F3 6C, Insb_m8_DX, ShowUselessPrefixes=false
+16, F3 6D, Insw_m16_DX, ShowUselessPrefixes=false
+16, F3 66 6D, Insd_m32_DX, ShowUselessPrefixes=false
+16, F3 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+16, F3 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+16, F3 66 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+16, F3 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+16, F3 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+16, F3 66 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+16, F3 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+16, F3 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+16, F3 66 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+16, F3 AA, Stosb_m8_AL, ShowUselessPrefixes=false
+16, F3 AB, Stosw_m16_AX, ShowUselessPrefixes=false
+16, F3 66 AB, Stosd_m32_EAX, ShowUselessPrefixes=false
+16, F3 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+16, F3 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+16, F3 66 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+16, F3 AE, Scasb_AL_m8, ShowUselessPrefixes=false
+16, F3 AF, Scasw_AX_m16, ShowUselessPrefixes=false
+16, F3 66 AF, Scasd_EAX_m32, ShowUselessPrefixes=false
+16, F3 0FA6 C0, Montmul_16, ShowUselessPrefixes=false DecoderOptions=NoInvalidCheck
+16, F3 0FA6 C8, Xsha1_16, ShowUselessPrefixes=false
+16, F3 0FA6 D0, Xsha256_16, ShowUselessPrefixes=false
+16, F3 0FA7 C0, Xstore_16, ShowUselessPrefixes=false
+16, F3 0FA7 C8, Xcryptecb_16, ShowUselessPrefixes=false
+16, F3 0FA7 D0, Xcryptcbc_16, ShowUselessPrefixes=false
+16, F3 0FA7 D8, Xcryptctr_16, ShowUselessPrefixes=false
+16, F3 0FA7 E0, Xcryptcfb_16, ShowUselessPrefixes=false
+16, F3 0FA7 E8, Xcryptofb_16, ShowUselessPrefixes=false
+16, F3 0FA6 E8, Ccs_hash_16, ShowUselessPrefixes=false
+16, F3 0FA7 F0, Ccs_encrypt_16, ShowUselessPrefixes=false
+16, F3 0FA6 F0, Via_undoc_F30FA6F0_16, ShowUselessPrefixes=false
+16, F3 0FA6 F8, Via_undoc_F30FA6F8_16, ShowUselessPrefixes=false
+16, F3 0FA6 E0, Xsha512_16, ShowUselessPrefixes=false
+16, F3 0FA7 F8, Xstore_alt_16, ShowUselessPrefixes=false
+16, F3 0FA6 D8, Xsha512_alt_16, ShowUselessPrefixes=false
+
+16, F2 6C, Insb_m8_DX, ShowUselessPrefixes=false
+16, F2 6D, Insw_m16_DX, ShowUselessPrefixes=false
+16, F2 66 6D, Insd_m32_DX, ShowUselessPrefixes=false
+16, F2 6E, Outsb_DX_m8, ShowUselessPrefixes=false
+16, F2 6F, Outsw_DX_m16, ShowUselessPrefixes=false
+16, F2 66 6F, Outsd_DX_m32, ShowUselessPrefixes=false
+16, F2 A4, Movsb_m8_m8, ShowUselessPrefixes=false
+16, F2 A5, Movsw_m16_m16, ShowUselessPrefixes=false
+16, F2 66 A5, Movsd_m32_m32, ShowUselessPrefixes=false
+16, F2 A6, Cmpsb_m8_m8, ShowUselessPrefixes=false
+16, F2 A7, Cmpsw_m16_m16, ShowUselessPrefixes=false
+16, F2 66 A7, Cmpsd_m32_m32, ShowUselessPrefixes=false
+16, F2 AA, Stosb_m8_AL, ShowUselessPrefixes=false
+16, F2 AB, Stosw_m16_AX, ShowUselessPrefixes=false
+16, F2 66 AB, Stosd_m32_EAX, ShowUselessPrefixes=false
+16, F2 AC, Lodsb_AL_m8, ShowUselessPrefixes=false
+16, F2 AD, Lodsw_AX_m16, ShowUselessPrefixes=false
+16, F2 66 AD, Lodsd_EAX_m32, ShowUselessPrefixes=false
+16, F2 AE, Scasb_AL_m8, ShowUselessPrefixes=false
+16, F2 AF, Scasw_AX_m16, ShowUselessPrefixes=false
+16, F2 66 AF, Scasd_EAX_m32, ShowUselessPrefixes=false
+
+64, F3 6C, Insb_m8_DX, ShowUselessPrefixes=true
+64, F3 66 6D, Insw_m16_DX, ShowUselessPrefixes=true
+64, F3 6D, Insd_m32_DX, ShowUselessPrefixes=true
+64, F3 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+64, F3 66 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+64, F3 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+64, F3 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+64, F3 66 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+64, F3 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+64, F3 48 A5, Movsq_m64_m64, ShowUselessPrefixes=true
+64, F3 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+64, F3 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+64, F3 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+64, F3 48 A7, Cmpsq_m64_m64, ShowUselessPrefixes=true
+64, F3 AA, Stosb_m8_AL, ShowUselessPrefixes=true
+64, F3 66 AB, Stosw_m16_AX, ShowUselessPrefixes=true
+64, F3 AB, Stosd_m32_EAX, ShowUselessPrefixes=true
+64, F3 48 AB, Stosq_m64_RAX, ShowUselessPrefixes=true
+64, F3 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+64, F3 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+64, F3 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+64, F3 48 AD, Lodsq_RAX_m64, ShowUselessPrefixes=true
+64, F3 AE, Scasb_AL_m8, ShowUselessPrefixes=true
+64, F3 66 AF, Scasw_AX_m16, ShowUselessPrefixes=true
+64, F3 AF, Scasd_EAX_m32, ShowUselessPrefixes=true
+64, F3 48 AF, Scasq_RAX_m64, ShowUselessPrefixes=true
+64, F3 0FA6 C0, Montmul_64, ShowUselessPrefixes=true DecoderOptions=NoInvalidCheck
+64, F3 0FA6 C8, Xsha1_64, ShowUselessPrefixes=true
+64, F3 0FA6 D0, Xsha256_64, ShowUselessPrefixes=true
+64, F3 0FA7 C0, Xstore_64, ShowUselessPrefixes=true
+64, F3 0FA7 C8, Xcryptecb_64, ShowUselessPrefixes=true
+64, F3 0FA7 D0, Xcryptcbc_64, ShowUselessPrefixes=true
+64, F3 0FA7 D8, Xcryptctr_64, ShowUselessPrefixes=true
+64, F3 0FA7 E0, Xcryptcfb_64, ShowUselessPrefixes=true
+64, F3 0FA7 E8, Xcryptofb_64, ShowUselessPrefixes=true
+64, F3 0FA6 E8, Ccs_hash_64, ShowUselessPrefixes=true
+64, F3 0FA7 F0, Ccs_encrypt_64, ShowUselessPrefixes=true
+64, F3 0FA6 F0, Via_undoc_F30FA6F0_64, ShowUselessPrefixes=true
+64, F3 0FA6 F8, Via_undoc_F30FA6F8_64, ShowUselessPrefixes=true
+64, F3 0FA6 E0, Xsha512_64, ShowUselessPrefixes=true
+64, F3 0FA7 F8, Xstore_alt_64, ShowUselessPrefixes=true
+64, F3 0FA6 D8, Xsha512_alt_64, ShowUselessPrefixes=true
+
+64, F2 6C, Insb_m8_DX, ShowUselessPrefixes=true
+64, F2 66 6D, Insw_m16_DX, ShowUselessPrefixes=true
+64, F2 6D, Insd_m32_DX, ShowUselessPrefixes=true
+64, F2 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+64, F2 66 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+64, F2 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+64, F2 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+64, F2 66 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+64, F2 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+64, F2 48 A5, Movsq_m64_m64, ShowUselessPrefixes=true
+64, F2 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+64, F2 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+64, F2 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+64, F2 48 A7, Cmpsq_m64_m64, ShowUselessPrefixes=true
+64, F2 AA, Stosb_m8_AL, ShowUselessPrefixes=true
+64, F2 66 AB, Stosw_m16_AX, ShowUselessPrefixes=true
+64, F2 AB, Stosd_m32_EAX, ShowUselessPrefixes=true
+64, F2 48 AB, Stosq_m64_RAX, ShowUselessPrefixes=true
+64, F2 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+64, F2 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+64, F2 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+64, F2 48 AD, Lodsq_RAX_m64, ShowUselessPrefixes=true
+64, F2 AE, Scasb_AL_m8, ShowUselessPrefixes=true
+64, F2 66 AF, Scasw_AX_m16, ShowUselessPrefixes=true
+64, F2 AF, Scasd_EAX_m32, ShowUselessPrefixes=true
+64, F2 48 AF, Scasq_RAX_m64, ShowUselessPrefixes=true
+
+32, F3 6C, Insb_m8_DX, ShowUselessPrefixes=true
+32, F3 66 6D, Insw_m16_DX, ShowUselessPrefixes=true
+32, F3 6D, Insd_m32_DX, ShowUselessPrefixes=true
+32, F3 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+32, F3 66 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+32, F3 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+32, F3 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+32, F3 66 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+32, F3 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+32, F3 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+32, F3 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+32, F3 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+32, F3 AA, Stosb_m8_AL, ShowUselessPrefixes=true
+32, F3 66 AB, Stosw_m16_AX, ShowUselessPrefixes=true
+32, F3 AB, Stosd_m32_EAX, ShowUselessPrefixes=true
+32, F3 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+32, F3 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+32, F3 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+32, F3 AE, Scasb_AL_m8, ShowUselessPrefixes=true
+32, F3 66 AF, Scasw_AX_m16, ShowUselessPrefixes=true
+32, F3 AF, Scasd_EAX_m32, ShowUselessPrefixes=true
+32, F3 0FA6 C0, Montmul_32, ShowUselessPrefixes=true
+32, F3 0FA6 C8, Xsha1_32, ShowUselessPrefixes=true
+32, F3 0FA6 D0, Xsha256_32, ShowUselessPrefixes=true
+32, F3 0FA7 C0, Xstore_32, ShowUselessPrefixes=true
+32, F3 0FA7 C8, Xcryptecb_32, ShowUselessPrefixes=true
+32, F3 0FA7 D0, Xcryptcbc_32, ShowUselessPrefixes=true
+32, F3 0FA7 D8, Xcryptctr_32, ShowUselessPrefixes=true
+32, F3 0FA7 E0, Xcryptcfb_32, ShowUselessPrefixes=true
+32, F3 0FA7 E8, Xcryptofb_32, ShowUselessPrefixes=true
+32, F3 0FA6 E8, Ccs_hash_32, ShowUselessPrefixes=true
+32, F3 0FA7 F0, Ccs_encrypt_32, ShowUselessPrefixes=true
+32, F3 0FA6 F0, Via_undoc_F30FA6F0_32, ShowUselessPrefixes=true
+32, F3 0FA6 F8, Via_undoc_F30FA6F8_32, ShowUselessPrefixes=true
+32, F3 0FA6 E0, Xsha512_32, ShowUselessPrefixes=true
+32, F3 0FA7 F8, Xstore_alt_32, ShowUselessPrefixes=true
+32, F3 0FA6 D8, Xsha512_alt_32, ShowUselessPrefixes=true
+
+32, F2 6C, Insb_m8_DX, ShowUselessPrefixes=true
+32, F2 66 6D, Insw_m16_DX, ShowUselessPrefixes=true
+32, F2 6D, Insd_m32_DX, ShowUselessPrefixes=true
+32, F2 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+32, F2 66 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+32, F2 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+32, F2 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+32, F2 66 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+32, F2 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+32, F2 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+32, F2 66 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+32, F2 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+32, F2 AA, Stosb_m8_AL, ShowUselessPrefixes=true
+32, F2 66 AB, Stosw_m16_AX, ShowUselessPrefixes=true
+32, F2 AB, Stosd_m32_EAX, ShowUselessPrefixes=true
+32, F2 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+32, F2 66 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+32, F2 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+32, F2 AE, Scasb_AL_m8, ShowUselessPrefixes=true
+32, F2 66 AF, Scasw_AX_m16, ShowUselessPrefixes=true
+32, F2 AF, Scasd_EAX_m32, ShowUselessPrefixes=true
+
+16, F3 6C, Insb_m8_DX, ShowUselessPrefixes=true
+16, F3 6D, Insw_m16_DX, ShowUselessPrefixes=true
+16, F3 66 6D, Insd_m32_DX, ShowUselessPrefixes=true
+16, F3 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+16, F3 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+16, F3 66 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+16, F3 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+16, F3 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+16, F3 66 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+16, F3 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+16, F3 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+16, F3 66 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+16, F3 AA, Stosb_m8_AL, ShowUselessPrefixes=true
+16, F3 AB, Stosw_m16_AX, ShowUselessPrefixes=true
+16, F3 66 AB, Stosd_m32_EAX, ShowUselessPrefixes=true
+16, F3 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+16, F3 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+16, F3 66 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+16, F3 AE, Scasb_AL_m8, ShowUselessPrefixes=true
+16, F3 AF, Scasw_AX_m16, ShowUselessPrefixes=true
+16, F3 66 AF, Scasd_EAX_m32, ShowUselessPrefixes=true
+16, F3 0FA6 C0, Montmul_16, ShowUselessPrefixes=true DecoderOptions=NoInvalidCheck
+16, F3 0FA6 C8, Xsha1_16, ShowUselessPrefixes=true
+16, F3 0FA6 D0, Xsha256_16, ShowUselessPrefixes=true
+16, F3 0FA7 C0, Xstore_16, ShowUselessPrefixes=true
+16, F3 0FA7 C8, Xcryptecb_16, ShowUselessPrefixes=true
+16, F3 0FA7 D0, Xcryptcbc_16, ShowUselessPrefixes=true
+16, F3 0FA7 D8, Xcryptctr_16, ShowUselessPrefixes=true
+16, F3 0FA7 E0, Xcryptcfb_16, ShowUselessPrefixes=true
+16, F3 0FA7 E8, Xcryptofb_16, ShowUselessPrefixes=true
+16, F3 0FA6 E8, Ccs_hash_16, ShowUselessPrefixes=true
+16, F3 0FA7 F0, Ccs_encrypt_16, ShowUselessPrefixes=true
+16, F3 0FA6 F0, Via_undoc_F30FA6F0_16, ShowUselessPrefixes=true
+16, F3 0FA6 F8, Via_undoc_F30FA6F8_16, ShowUselessPrefixes=true
+16, F3 0FA6 E0, Xsha512_16, ShowUselessPrefixes=true
+16, F3 0FA7 F8, Xstore_alt_16, ShowUselessPrefixes=true
+16, F3 0FA6 D8, Xsha512_alt_16, ShowUselessPrefixes=true
+
+16, F2 6C, Insb_m8_DX, ShowUselessPrefixes=true
+16, F2 6D, Insw_m16_DX, ShowUselessPrefixes=true
+16, F2 66 6D, Insd_m32_DX, ShowUselessPrefixes=true
+16, F2 6E, Outsb_DX_m8, ShowUselessPrefixes=true
+16, F2 6F, Outsw_DX_m16, ShowUselessPrefixes=true
+16, F2 66 6F, Outsd_DX_m32, ShowUselessPrefixes=true
+16, F2 A4, Movsb_m8_m8, ShowUselessPrefixes=true
+16, F2 A5, Movsw_m16_m16, ShowUselessPrefixes=true
+16, F2 66 A5, Movsd_m32_m32, ShowUselessPrefixes=true
+16, F2 A6, Cmpsb_m8_m8, ShowUselessPrefixes=true
+16, F2 A7, Cmpsw_m16_m16, ShowUselessPrefixes=true
+16, F2 66 A7, Cmpsd_m32_m32, ShowUselessPrefixes=true
+16, F2 AA, Stosb_m8_AL, ShowUselessPrefixes=true
+16, F2 AB, Stosw_m16_AX, ShowUselessPrefixes=true
+16, F2 66 AB, Stosd_m32_EAX, ShowUselessPrefixes=true
+16, F2 AC, Lodsb_AL_m8, ShowUselessPrefixes=true
+16, F2 AD, Lodsw_AX_m16, ShowUselessPrefixes=true
+16, F2 66 AD, Lodsd_EAX_m32, ShowUselessPrefixes=true
+16, F2 AE, Scasb_AL_m8, ShowUselessPrefixes=true
+16, F2 AF, Scasw_AX_m16, ShowUselessPrefixes=true
+16, F2 66 AF, Scasd_EAX_m32, ShowUselessPrefixes=true
+
+64, F3 6C, Insb_m8_DX, CC_e=e
+64, F3 66 6D, Insw_m16_DX, CC_e=e
+64, F3 6D, Insd_m32_DX, CC_e=e
+64, F3 6E, Outsb_DX_m8, CC_e=e
+64, F3 66 6F, Outsw_DX_m16, CC_e=e
+64, F3 6F, Outsd_DX_m32, CC_e=e
+64, F3 A4, Movsb_m8_m8, CC_e=e
+64, F3 66 A5, Movsw_m16_m16, CC_e=e
+64, F3 A5, Movsd_m32_m32, CC_e=e
+64, F3 48 A5, Movsq_m64_m64, CC_e=e
+64, F3 A6, Cmpsb_m8_m8, CC_e=e
+64, F3 66 A7, Cmpsw_m16_m16, CC_e=e
+64, F3 A7, Cmpsd_m32_m32, CC_e=e
+64, F3 48 A7, Cmpsq_m64_m64, CC_e=e
+64, F3 AA, Stosb_m8_AL, CC_e=e
+64, F3 66 AB, Stosw_m16_AX, CC_e=e
+64, F3 AB, Stosd_m32_EAX, CC_e=e
+64, F3 48 AB, Stosq_m64_RAX, CC_e=e
+64, F3 AC, Lodsb_AL_m8, CC_e=e
+64, F3 66 AD, Lodsw_AX_m16, CC_e=e
+64, F3 AD, Lodsd_EAX_m32, CC_e=e
+64, F3 48 AD, Lodsq_RAX_m64, CC_e=e
+64, F3 AE, Scasb_AL_m8, CC_e=e
+64, F3 66 AF, Scasw_AX_m16, CC_e=e
+64, F3 AF, Scasd_EAX_m32, CC_e=e
+64, F3 48 AF, Scasq_RAX_m64, CC_e=e
+64, F3 0FA6 C0, Montmul_64, CC_e=e DecoderOptions=NoInvalidCheck
+64, F3 0FA6 C8, Xsha1_64, CC_e=e
+64, F3 0FA6 D0, Xsha256_64, CC_e=e
+64, F3 0FA7 C0, Xstore_64, CC_e=e
+64, F3 0FA7 C8, Xcryptecb_64, CC_e=e
+64, F3 0FA7 D0, Xcryptcbc_64, CC_e=e
+64, F3 0FA7 D8, Xcryptctr_64, CC_e=e
+64, F3 0FA7 E0, Xcryptcfb_64, CC_e=e
+64, F3 0FA7 E8, Xcryptofb_64, CC_e=e
+64, F3 0FA6 E8, Ccs_hash_64, CC_e=e
+64, F3 0FA7 F0, Ccs_encrypt_64, CC_e=e
+64, F3 0FA6 F0, Via_undoc_F30FA6F0_64, CC_e=e
+64, F3 0FA6 F8, Via_undoc_F30FA6F8_64, CC_e=e
+64, F3 0FA6 E0, Xsha512_64, CC_e=e
+64, F3 0FA7 F8, Xstore_alt_64, CC_e=e
+64, F3 0FA6 D8, Xsha512_alt_64, CC_e=e
+
+64, F2 6C, Insb_m8_DX, CC_ne=ne
+64, F2 66 6D, Insw_m16_DX, CC_ne=ne
+64, F2 6D, Insd_m32_DX, CC_ne=ne
+64, F2 6E, Outsb_DX_m8, CC_ne=ne
+64, F2 66 6F, Outsw_DX_m16, CC_ne=ne
+64, F2 6F, Outsd_DX_m32, CC_ne=ne
+64, F2 A4, Movsb_m8_m8, CC_ne=ne
+64, F2 66 A5, Movsw_m16_m16, CC_ne=ne
+64, F2 A5, Movsd_m32_m32, CC_ne=ne
+64, F2 48 A5, Movsq_m64_m64, CC_ne=ne
+64, F2 A6, Cmpsb_m8_m8, CC_ne=ne
+64, F2 66 A7, Cmpsw_m16_m16, CC_ne=ne
+64, F2 A7, Cmpsd_m32_m32, CC_ne=ne
+64, F2 48 A7, Cmpsq_m64_m64, CC_ne=ne
+64, F2 AA, Stosb_m8_AL, CC_ne=ne
+64, F2 66 AB, Stosw_m16_AX, CC_ne=ne
+64, F2 AB, Stosd_m32_EAX, CC_ne=ne
+64, F2 48 AB, Stosq_m64_RAX, CC_ne=ne
+64, F2 AC, Lodsb_AL_m8, CC_ne=ne
+64, F2 66 AD, Lodsw_AX_m16, CC_ne=ne
+64, F2 AD, Lodsd_EAX_m32, CC_ne=ne
+64, F2 48 AD, Lodsq_RAX_m64, CC_ne=ne
+64, F2 AE, Scasb_AL_m8, CC_ne=ne
+64, F2 66 AF, Scasw_AX_m16, CC_ne=ne
+64, F2 AF, Scasd_EAX_m32, CC_ne=ne
+64, F2 48 AF, Scasq_RAX_m64, CC_ne=ne
+
+32, F3 6C, Insb_m8_DX, CC_e=e
+32, F3 66 6D, Insw_m16_DX, CC_e=e
+32, F3 6D, Insd_m32_DX, CC_e=e
+32, F3 6E, Outsb_DX_m8, CC_e=e
+32, F3 66 6F, Outsw_DX_m16, CC_e=e
+32, F3 6F, Outsd_DX_m32, CC_e=e
+32, F3 A4, Movsb_m8_m8, CC_e=e
+32, F3 66 A5, Movsw_m16_m16, CC_e=e
+32, F3 A5, Movsd_m32_m32, CC_e=e
+32, F3 A6, Cmpsb_m8_m8, CC_e=e
+32, F3 66 A7, Cmpsw_m16_m16, CC_e=e
+32, F3 A7, Cmpsd_m32_m32, CC_e=e
+32, F3 AA, Stosb_m8_AL, CC_e=e
+32, F3 66 AB, Stosw_m16_AX, CC_e=e
+32, F3 AB, Stosd_m32_EAX, CC_e=e
+32, F3 AC, Lodsb_AL_m8, CC_e=e
+32, F3 66 AD, Lodsw_AX_m16, CC_e=e
+32, F3 AD, Lodsd_EAX_m32, CC_e=e
+32, F3 AE, Scasb_AL_m8, CC_e=e
+32, F3 66 AF, Scasw_AX_m16, CC_e=e
+32, F3 AF, Scasd_EAX_m32, CC_e=e
+32, F3 0FA6 C0, Montmul_32, CC_e=e
+32, F3 0FA6 C8, Xsha1_32, CC_e=e
+32, F3 0FA6 D0, Xsha256_32, CC_e=e
+32, F3 0FA7 C0, Xstore_32, CC_e=e
+32, F3 0FA7 C8, Xcryptecb_32, CC_e=e
+32, F3 0FA7 D0, Xcryptcbc_32, CC_e=e
+32, F3 0FA7 D8, Xcryptctr_32, CC_e=e
+32, F3 0FA7 E0, Xcryptcfb_32, CC_e=e
+32, F3 0FA7 E8, Xcryptofb_32, CC_e=e
+32, F3 0FA6 E8, Ccs_hash_32, CC_e=e
+32, F3 0FA7 F0, Ccs_encrypt_32, CC_e=e
+32, F3 0FA6 F0, Via_undoc_F30FA6F0_32, CC_e=e
+32, F3 0FA6 F8, Via_undoc_F30FA6F8_32, CC_e=e
+32, F3 0FA6 E0, Xsha512_32, CC_e=e
+32, F3 0FA7 F8, Xstore_alt_32, CC_e=e
+32, F3 0FA6 D8, Xsha512_alt_32, CC_e=e
+
+32, F2 6C, Insb_m8_DX, CC_ne=ne
+32, F2 66 6D, Insw_m16_DX, CC_ne=ne
+32, F2 6D, Insd_m32_DX, CC_ne=ne
+32, F2 6E, Outsb_DX_m8, CC_ne=ne
+32, F2 66 6F, Outsw_DX_m16, CC_ne=ne
+32, F2 6F, Outsd_DX_m32, CC_ne=ne
+32, F2 A4, Movsb_m8_m8, CC_ne=ne
+32, F2 66 A5, Movsw_m16_m16, CC_ne=ne
+32, F2 A5, Movsd_m32_m32, CC_ne=ne
+32, F2 A6, Cmpsb_m8_m8, CC_ne=ne
+32, F2 66 A7, Cmpsw_m16_m16, CC_ne=ne
+32, F2 A7, Cmpsd_m32_m32, CC_ne=ne
+32, F2 AA, Stosb_m8_AL, CC_ne=ne
+32, F2 66 AB, Stosw_m16_AX, CC_ne=ne
+32, F2 AB, Stosd_m32_EAX, CC_ne=ne
+32, F2 AC, Lodsb_AL_m8, CC_ne=ne
+32, F2 66 AD, Lodsw_AX_m16, CC_ne=ne
+32, F2 AD, Lodsd_EAX_m32, CC_ne=ne
+32, F2 AE, Scasb_AL_m8, CC_ne=ne
+32, F2 66 AF, Scasw_AX_m16, CC_ne=ne
+32, F2 AF, Scasd_EAX_m32, CC_ne=ne
+
+16, F3 6C, Insb_m8_DX, CC_e=e
+16, F3 6D, Insw_m16_DX, CC_e=e
+16, F3 66 6D, Insd_m32_DX, CC_e=e
+16, F3 6E, Outsb_DX_m8, CC_e=e
+16, F3 6F, Outsw_DX_m16, CC_e=e
+16, F3 66 6F, Outsd_DX_m32, CC_e=e
+16, F3 A4, Movsb_m8_m8, CC_e=e
+16, F3 A5, Movsw_m16_m16, CC_e=e
+16, F3 66 A5, Movsd_m32_m32, CC_e=e
+16, F3 A6, Cmpsb_m8_m8, CC_e=e
+16, F3 A7, Cmpsw_m16_m16, CC_e=e
+16, F3 66 A7, Cmpsd_m32_m32, CC_e=e
+16, F3 AA, Stosb_m8_AL, CC_e=e
+16, F3 AB, Stosw_m16_AX, CC_e=e
+16, F3 66 AB, Stosd_m32_EAX, CC_e=e
+16, F3 AC, Lodsb_AL_m8, CC_e=e
+16, F3 AD, Lodsw_AX_m16, CC_e=e
+16, F3 66 AD, Lodsd_EAX_m32, CC_e=e
+16, F3 AE, Scasb_AL_m8, CC_e=e
+16, F3 AF, Scasw_AX_m16, CC_e=e
+16, F3 66 AF, Scasd_EAX_m32, CC_e=e
+16, F3 0FA6 C0, Montmul_16, CC_e=e DecoderOptions=NoInvalidCheck
+16, F3 0FA6 C8, Xsha1_16, CC_e=e
+16, F3 0FA6 D0, Xsha256_16, CC_e=e
+16, F3 0FA7 C0, Xstore_16, CC_e=e
+16, F3 0FA7 C8, Xcryptecb_16, CC_e=e
+16, F3 0FA7 D0, Xcryptcbc_16, CC_e=e
+16, F3 0FA7 D8, Xcryptctr_16, CC_e=e
+16, F3 0FA7 E0, Xcryptcfb_16, CC_e=e
+16, F3 0FA7 E8, Xcryptofb_16, CC_e=e
+16, F3 0FA6 E8, Ccs_hash_16, CC_e=e
+16, F3 0FA7 F0, Ccs_encrypt_16, CC_e=e
+16, F3 0FA6 F0, Via_undoc_F30FA6F0_16, CC_e=e
+16, F3 0FA6 F8, Via_undoc_F30FA6F8_16, CC_e=e
+16, F3 0FA6 E0, Xsha512_16, CC_e=e
+16, F3 0FA7 F8, Xstore_alt_16, CC_e=e
+16, F3 0FA6 D8, Xsha512_alt_16, CC_e=e
+
+16, F2 6C, Insb_m8_DX, CC_ne=ne
+16, F2 6D, Insw_m16_DX, CC_ne=ne
+16, F2 66 6D, Insd_m32_DX, CC_ne=ne
+16, F2 6E, Outsb_DX_m8, CC_ne=ne
+16, F2 6F, Outsw_DX_m16, CC_ne=ne
+16, F2 66 6F, Outsd_DX_m32, CC_ne=ne
+16, F2 A4, Movsb_m8_m8, CC_ne=ne
+16, F2 A5, Movsw_m16_m16, CC_ne=ne
+16, F2 66 A5, Movsd_m32_m32, CC_ne=ne
+16, F2 A6, Cmpsb_m8_m8, CC_ne=ne
+16, F2 A7, Cmpsw_m16_m16, CC_ne=ne
+16, F2 66 A7, Cmpsd_m32_m32, CC_ne=ne
+16, F2 AA, Stosb_m8_AL, CC_ne=ne
+16, F2 AB, Stosw_m16_AX, CC_ne=ne
+16, F2 66 AB, Stosd_m32_EAX, CC_ne=ne
+16, F2 AC, Lodsb_AL_m8, CC_ne=ne
+16, F2 AD, Lodsw_AX_m16, CC_ne=ne
+16, F2 66 AD, Lodsd_EAX_m32, CC_ne=ne
+16, F2 AE, Scasb_AL_m8, CC_ne=ne
+16, F2 AF, Scasw_AX_m16, CC_ne=ne
+16, F2 66 AF, Scasd_EAX_m32, CC_ne=ne
+
+64, F3 6C, Insb_m8_DX, CC_e=z
+64, F3 66 6D, Insw_m16_DX, CC_e=z
+64, F3 6D, Insd_m32_DX, CC_e=z
+64, F3 6E, Outsb_DX_m8, CC_e=z
+64, F3 66 6F, Outsw_DX_m16, CC_e=z
+64, F3 6F, Outsd_DX_m32, CC_e=z
+64, F3 A4, Movsb_m8_m8, CC_e=z
+64, F3 66 A5, Movsw_m16_m16, CC_e=z
+64, F3 A5, Movsd_m32_m32, CC_e=z
+64, F3 48 A5, Movsq_m64_m64, CC_e=z
+64, F3 A6, Cmpsb_m8_m8, CC_e=z
+64, F3 66 A7, Cmpsw_m16_m16, CC_e=z
+64, F3 A7, Cmpsd_m32_m32, CC_e=z
+64, F3 48 A7, Cmpsq_m64_m64, CC_e=z
+64, F3 AA, Stosb_m8_AL, CC_e=z
+64, F3 66 AB, Stosw_m16_AX, CC_e=z
+64, F3 AB, Stosd_m32_EAX, CC_e=z
+64, F3 48 AB, Stosq_m64_RAX, CC_e=z
+64, F3 AC, Lodsb_AL_m8, CC_e=z
+64, F3 66 AD, Lodsw_AX_m16, CC_e=z
+64, F3 AD, Lodsd_EAX_m32, CC_e=z
+64, F3 48 AD, Lodsq_RAX_m64, CC_e=z
+64, F3 AE, Scasb_AL_m8, CC_e=z
+64, F3 66 AF, Scasw_AX_m16, CC_e=z
+64, F3 AF, Scasd_EAX_m32, CC_e=z
+64, F3 48 AF, Scasq_RAX_m64, CC_e=z
+64, F3 0FA6 C0, Montmul_64, CC_e=z DecoderOptions=NoInvalidCheck
+64, F3 0FA6 C8, Xsha1_64, CC_e=z
+64, F3 0FA6 D0, Xsha256_64, CC_e=z
+64, F3 0FA7 C0, Xstore_64, CC_e=z
+64, F3 0FA7 C8, Xcryptecb_64, CC_e=z
+64, F3 0FA7 D0, Xcryptcbc_64, CC_e=z
+64, F3 0FA7 D8, Xcryptctr_64, CC_e=z
+64, F3 0FA7 E0, Xcryptcfb_64, CC_e=z
+64, F3 0FA7 E8, Xcryptofb_64, CC_e=z
+64, F3 0FA6 E8, Ccs_hash_64, CC_e=z
+64, F3 0FA7 F0, Ccs_encrypt_64, CC_e=z
+64, F3 0FA6 F0, Via_undoc_F30FA6F0_64, CC_e=z
+64, F3 0FA6 F8, Via_undoc_F30FA6F8_64, CC_e=z
+64, F3 0FA6 E0, Xsha512_64, CC_e=z
+64, F3 0FA7 F8, Xstore_alt_64, CC_e=z
+64, F3 0FA6 D8, Xsha512_alt_64, CC_e=z
+
+64, F2 6C, Insb_m8_DX, CC_ne=nz
+64, F2 66 6D, Insw_m16_DX, CC_ne=nz
+64, F2 6D, Insd_m32_DX, CC_ne=nz
+64, F2 6E, Outsb_DX_m8, CC_ne=nz
+64, F2 66 6F, Outsw_DX_m16, CC_ne=nz
+64, F2 6F, Outsd_DX_m32, CC_ne=nz
+64, F2 A4, Movsb_m8_m8, CC_ne=nz
+64, F2 66 A5, Movsw_m16_m16, CC_ne=nz
+64, F2 A5, Movsd_m32_m32, CC_ne=nz
+64, F2 48 A5, Movsq_m64_m64, CC_ne=nz
+64, F2 A6, Cmpsb_m8_m8, CC_ne=nz
+64, F2 66 A7, Cmpsw_m16_m16, CC_ne=nz
+64, F2 A7, Cmpsd_m32_m32, CC_ne=nz
+64, F2 48 A7, Cmpsq_m64_m64, CC_ne=nz
+64, F2 AA, Stosb_m8_AL, CC_ne=nz
+64, F2 66 AB, Stosw_m16_AX, CC_ne=nz
+64, F2 AB, Stosd_m32_EAX, CC_ne=nz
+64, F2 48 AB, Stosq_m64_RAX, CC_ne=nz
+64, F2 AC, Lodsb_AL_m8, CC_ne=nz
+64, F2 66 AD, Lodsw_AX_m16, CC_ne=nz
+64, F2 AD, Lodsd_EAX_m32, CC_ne=nz
+64, F2 48 AD, Lodsq_RAX_m64, CC_ne=nz
+64, F2 AE, Scasb_AL_m8, CC_ne=nz
+64, F2 66 AF, Scasw_AX_m16, CC_ne=nz
+64, F2 AF, Scasd_EAX_m32, CC_ne=nz
+64, F2 48 AF, Scasq_RAX_m64, CC_ne=nz
+
+32, F3 6C, Insb_m8_DX, CC_e=z
+32, F3 66 6D, Insw_m16_DX, CC_e=z
+32, F3 6D, Insd_m32_DX, CC_e=z
+32, F3 6E, Outsb_DX_m8, CC_e=z
+32, F3 66 6F, Outsw_DX_m16, CC_e=z
+32, F3 6F, Outsd_DX_m32, CC_e=z
+32, F3 A4, Movsb_m8_m8, CC_e=z
+32, F3 66 A5, Movsw_m16_m16, CC_e=z
+32, F3 A5, Movsd_m32_m32, CC_e=z
+32, F3 A6, Cmpsb_m8_m8, CC_e=z
+32, F3 66 A7, Cmpsw_m16_m16, CC_e=z
+32, F3 A7, Cmpsd_m32_m32, CC_e=z
+32, F3 AA, Stosb_m8_AL, CC_e=z
+32, F3 66 AB, Stosw_m16_AX, CC_e=z
+32, F3 AB, Stosd_m32_EAX, CC_e=z
+32, F3 AC, Lodsb_AL_m8, CC_e=z
+32, F3 66 AD, Lodsw_AX_m16, CC_e=z
+32, F3 AD, Lodsd_EAX_m32, CC_e=z
+32, F3 AE, Scasb_AL_m8, CC_e=z
+32, F3 66 AF, Scasw_AX_m16, CC_e=z
+32, F3 AF, Scasd_EAX_m32, CC_e=z
+32, F3 0FA6 C0, Montmul_32, CC_e=z
+32, F3 0FA6 C8, Xsha1_32, CC_e=z
+32, F3 0FA6 D0, Xsha256_32, CC_e=z
+32, F3 0FA7 C0, Xstore_32, CC_e=z
+32, F3 0FA7 C8, Xcryptecb_32, CC_e=z
+32, F3 0FA7 D0, Xcryptcbc_32, CC_e=z
+32, F3 0FA7 D8, Xcryptctr_32, CC_e=z
+32, F3 0FA7 E0, Xcryptcfb_32, CC_e=z
+32, F3 0FA7 E8, Xcryptofb_32, CC_e=z
+32, F3 0FA6 E8, Ccs_hash_32, CC_e=z
+32, F3 0FA7 F0, Ccs_encrypt_32, CC_e=z
+32, F3 0FA6 F0, Via_undoc_F30FA6F0_32, CC_e=z
+32, F3 0FA6 F8, Via_undoc_F30FA6F8_32, CC_e=z
+32, F3 0FA6 E0, Xsha512_32, CC_e=z
+32, F3 0FA7 F8, Xstore_alt_32, CC_e=z
+32, F3 0FA6 D8, Xsha512_alt_32, CC_e=z
+
+32, F2 6C, Insb_m8_DX, CC_ne=nz
+32, F2 66 6D, Insw_m16_DX, CC_ne=nz
+32, F2 6D, Insd_m32_DX, CC_ne=nz
+32, F2 6E, Outsb_DX_m8, CC_ne=nz
+32, F2 66 6F, Outsw_DX_m16, CC_ne=nz
+32, F2 6F, Outsd_DX_m32, CC_ne=nz
+32, F2 A4, Movsb_m8_m8, CC_ne=nz
+32, F2 66 A5, Movsw_m16_m16, CC_ne=nz
+32, F2 A5, Movsd_m32_m32, CC_ne=nz
+32, F2 A6, Cmpsb_m8_m8, CC_ne=nz
+32, F2 66 A7, Cmpsw_m16_m16, CC_ne=nz
+32, F2 A7, Cmpsd_m32_m32, CC_ne=nz
+32, F2 AA, Stosb_m8_AL, CC_ne=nz
+32, F2 66 AB, Stosw_m16_AX, CC_ne=nz
+32, F2 AB, Stosd_m32_EAX, CC_ne=nz
+32, F2 AC, Lodsb_AL_m8, CC_ne=nz
+32, F2 66 AD, Lodsw_AX_m16, CC_ne=nz
+32, F2 AD, Lodsd_EAX_m32, CC_ne=nz
+32, F2 AE, Scasb_AL_m8, CC_ne=nz
+32, F2 66 AF, Scasw_AX_m16, CC_ne=nz
+32, F2 AF, Scasd_EAX_m32, CC_ne=nz
+
+16, F3 6C, Insb_m8_DX, CC_e=z
+16, F3 6D, Insw_m16_DX, CC_e=z
+16, F3 66 6D, Insd_m32_DX, CC_e=z
+16, F3 6E, Outsb_DX_m8, CC_e=z
+16, F3 6F, Outsw_DX_m16, CC_e=z
+16, F3 66 6F, Outsd_DX_m32, CC_e=z
+16, F3 A4, Movsb_m8_m8, CC_e=z
+16, F3 A5, Movsw_m16_m16, CC_e=z
+16, F3 66 A5, Movsd_m32_m32, CC_e=z
+16, F3 A6, Cmpsb_m8_m8, CC_e=z
+16, F3 A7, Cmpsw_m16_m16, CC_e=z
+16, F3 66 A7, Cmpsd_m32_m32, CC_e=z
+16, F3 AA, Stosb_m8_AL, CC_e=z
+16, F3 AB, Stosw_m16_AX, CC_e=z
+16, F3 66 AB, Stosd_m32_EAX, CC_e=z
+16, F3 AC, Lodsb_AL_m8, CC_e=z
+16, F3 AD, Lodsw_AX_m16, CC_e=z
+16, F3 66 AD, Lodsd_EAX_m32, CC_e=z
+16, F3 AE, Scasb_AL_m8, CC_e=z
+16, F3 AF, Scasw_AX_m16, CC_e=z
+16, F3 66 AF, Scasd_EAX_m32, CC_e=z
+16, F3 0FA6 C0, Montmul_16, CC_e=z DecoderOptions=NoInvalidCheck
+16, F3 0FA6 C8, Xsha1_16, CC_e=z
+16, F3 0FA6 D0, Xsha256_16, CC_e=z
+16, F3 0FA7 C0, Xstore_16, CC_e=z
+16, F3 0FA7 C8, Xcryptecb_16, CC_e=z
+16, F3 0FA7 D0, Xcryptcbc_16, CC_e=z
+16, F3 0FA7 D8, Xcryptctr_16, CC_e=z
+16, F3 0FA7 E0, Xcryptcfb_16, CC_e=z
+16, F3 0FA7 E8, Xcryptofb_16, CC_e=z
+16, F3 0FA6 E8, Ccs_hash_16, CC_e=z
+16, F3 0FA7 F0, Ccs_encrypt_16, CC_e=z
+16, F3 0FA6 F0, Via_undoc_F30FA6F0_16, CC_e=z
+16, F3 0FA6 F8, Via_undoc_F30FA6F8_16, CC_e=z
+16, F3 0FA6 E0, Xsha512_16, CC_e=z
+16, F3 0FA7 F8, Xstore_alt_16, CC_e=z
+16, F3 0FA6 D8, Xsha512_alt_16, CC_e=z
+
+16, F2 6C, Insb_m8_DX, CC_ne=nz
+16, F2 6D, Insw_m16_DX, CC_ne=nz
+16, F2 66 6D, Insd_m32_DX, CC_ne=nz
+16, F2 6E, Outsb_DX_m8, CC_ne=nz
+16, F2 6F, Outsw_DX_m16, CC_ne=nz
+16, F2 66 6F, Outsd_DX_m32, CC_ne=nz
+16, F2 A4, Movsb_m8_m8, CC_ne=nz
+16, F2 A5, Movsw_m16_m16, CC_ne=nz
+16, F2 66 A5, Movsd_m32_m32, CC_ne=nz
+16, F2 A6, Cmpsb_m8_m8, CC_ne=nz
+16, F2 A7, Cmpsw_m16_m16, CC_ne=nz
+16, F2 66 A7, Cmpsd_m32_m32, CC_ne=nz
+16, F2 AA, Stosb_m8_AL, CC_ne=nz
+16, F2 AB, Stosw_m16_AX, CC_ne=nz
+16, F2 66 AB, Stosd_m32_EAX, CC_ne=nz
+16, F2 AC, Lodsb_AL_m8, CC_ne=nz
+16, F2 AD, Lodsw_AX_m16, CC_ne=nz
+16, F2 66 AD, Lodsd_EAX_m32, CC_ne=nz
+16, F2 AE, Scasb_AL_m8, CC_ne=nz
+16, F2 AF, Scasw_AX_m16, CC_ne=nz
+16, F2 66 AF, Scasd_EAX_m32, CC_ne=nz
+
+64, 8A 40 01, Mov_r8_rm8, MemorySizeOptions=Default
+64, 8A 40 01, Mov_r8_rm8, MemorySizeOptions=Always
+64, 8A 40 01, Mov_r8_rm8, MemorySizeOptions=Minimal
+64, 8A 40 01, Mov_r8_rm8, MemorySizeOptions=Never
+
+64, C0 08 A5, Ror_rm8_imm8, MemorySizeOptions=Default
+64, C0 08 A5, Ror_rm8_imm8, MemorySizeOptions=Always
+64, C0 08 A5, Ror_rm8_imm8, MemorySizeOptions=Minimal
+64, C0 08 A5, Ror_rm8_imm8, MemorySizeOptions=Never

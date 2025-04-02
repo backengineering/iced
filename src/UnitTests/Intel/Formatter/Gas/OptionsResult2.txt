@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: MIT
+# Copyright (C) 2018-present iced project and contributors
+
+add rcx,rsi
+add %rcx,%rsi
+addq %rcx,%rsi
+add %rcx,%rsi
+.BYTE 0x66; loopnew 0x004e
+.byte 0x66; loopnew 0x004e
+.BYTE 0x66; LOOPNEW 0x004e
+.byte 0x66; loopnew 0x004e
+jo,PN 0x7ffffffffffffff3
+jo,pn 0x7ffffffffffffff3
+JO,PN 0x7ffffffffffffff3
+jo,pn 0x7ffffffffffffff3
+mov (%rax, %rdx, 4),%rcx
+mov (%rax,%rdx,4),%rcx

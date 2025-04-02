@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: MIT
+# Copyright (C) 2018-present iced project and contributors
+
+64, 48 01 CE, Add_rm64_r64, GasNakedRegisters=true
+64, 48 01 CE, Add_rm64_r64, GasNakedRegisters=false
+64, 48 01 CE, Add_rm64_r64, GasShowMnemonicSizeSuffix=true
+64, 48 01 CE, Add_rm64_r64, GasShowMnemonicSizeSuffix=false
+32, 66 67 E0 5A, Loopne_rel8_16_CX, UppercaseKeywords=true
+32, 66 67 E0 5A, Loopne_rel8_16_CX, UppercaseKeywords=false
+32, 66 67 E0 5A, Loopne_rel8_16_CX, UppercaseAll=true
+32, 66 67 E0 5A, Loopne_rel8_16_CX, UppercaseAll=false
+64, 2E 70 00, Jo_rel8_64, UppercasePrefixes=true
+64, 2E 70 00, Jo_rel8_64, UppercasePrefixes=false
+64, 2E 70 00, Jo_rel8_64, UppercaseAll=true
+64, 2E 70 00, Jo_rel8_64, UppercaseAll=false
+64, 48 8B 0C 90, Mov_r64_rm64, GasSpaceAfterMemoryOperandComma=true
+64, 48 8B 0C 90, Mov_r64_rm64, GasSpaceAfterMemoryOperandComma=false

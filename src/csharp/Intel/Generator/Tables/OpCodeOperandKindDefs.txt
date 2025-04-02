@@ -1,0 +1,128 @@
+# SPDX-License-Identifier: MIT
+# Copyright (C) 2018-present iced project and contributors
+
+None, none,
+
+br16_1, br-near=8;16,
+br16_2, br-near=16;16,
+br32_1, br-near=8;32,
+br32_4, br-near=32;32,
+br64_1, br-near=8;64,
+br64_4, br-near=32;64,
+
+xbegin_2, br-near-x=16,
+xbegin_4, br-near-x=32,
+
+brdisp_2, br-disp=16,
+brdisp_4, br-disp=32,
+
+farbr2_2, br-far=16,
+farbr4_2, br-far=32,
+
+imm4_m2z, imm4,
+imm8_const_1, imm8-const=1,
+imm8, imm=8;8,
+imm8sex16, imm=8;16,
+imm8sex32, imm=8;32,
+imm8sex64, imm=8;64,
+imm16, imm=16;16,
+imm32, imm=32;32,
+imm32sex64, imm=32;64,
+imm64, imm=64;64,
+
+al, imp-reg=al,
+cl, imp-reg=cl,
+ax, imp-reg=ax,
+dx, imp-reg=dx,
+eax, imp-reg=eax,
+rax, imp-reg=rax,
+st0, imp-reg=st0,
+es, imp-reg=es,
+cs, imp-reg=cs,
+ss, imp-reg=ss,
+ds, imp-reg=ds,
+fs, imp-reg=fs,
+gs, imp-reg=gs,
+
+seg_rBX_al, seg-rbx-al,
+seg_rDI, seg-rdi,
+es_rDI, es-rdi,
+seg_rSI, seg-rsi,
+
+xmm_is4, isx=xmm0;4,
+xmm_is5, isx=xmm0;5,
+ymm_is4, isx=ymm0;4,
+ymm_is5, isx=ymm0;5,
+
+r8_opcode, opcode=al,
+r16_opcode, opcode=ax,
+r32_opcode, opcode=eax,
+r64_opcode, opcode=rax,
+sti_opcode, opcode=st0,
+
+bnd_reg, reg=bnd0,
+cr_reg, reg=cr0, lock-bit
+dr_reg, reg=dr0,
+k_reg, reg=k0,
+kp1_reg, reg=k0, p1
+mm_reg, reg=mm0,
+r8_reg, reg=al,
+r16_reg, reg=ax,
+r16_reg_mem, reg=ax, mem
+r32_reg, reg=eax,
+r32_reg_mem, reg=eax, mem
+r64_reg, reg=rax,
+r64_reg_mem, reg=rax, mem
+seg_reg, reg=es,
+tmm_reg, reg=tmm0,
+tr_reg, reg=tr0,
+xmm_reg, reg=xmm0,
+ymm_reg, reg=ymm0,
+zmm_reg, reg=zmm0,
+
+k_rm, rm-reg=k0,
+mm_rm, rm-reg=mm0,
+r16_rm, rm-reg=ax,
+r32_rm, rm-reg=eax,
+r64_rm, rm-reg=rax,
+tmm_rm, rm-reg=tmm0,
+xmm_rm, rm-reg=xmm0,
+ymm_rm, rm-reg=ymm0,
+zmm_rm, rm-reg=zmm0,
+
+k_vvvv, vvvv=k0,
+r32_vvvv, vvvv=eax,
+r64_vvvv, vvvv=rax,
+tmm_vvvv, vvvv=tmm0,
+xmm_vvvv, vvvv=xmm0,
+xmmp3_vvvv, vvvv=xmm0, p3
+ymm_vvvv, vvvv=ymm0,
+zmm_vvvv, vvvv=zmm0,
+zmmp3_vvvv, vvvv=zmm0, p3
+
+bnd_or_mem_mpx, rm=bnd0, mpx
+k_or_mem, rm=k0,
+mm_or_mem, rm=mm0,
+r8_or_mem, rm=al,
+r16_or_mem, rm=ax,
+r32_or_mem, rm=eax,
+r32_or_mem_mpx, rm=eax, mpx
+r64_or_mem, rm=rax,
+r64_or_mem_mpx, rm=rax, mpx
+xmm_or_mem, rm=xmm0,
+ymm_or_mem, rm=ymm0,
+zmm_or_mem, rm=zmm0,
+
+mem, rm-mem,
+mem_mib, rm-mem, mib
+mem_mpx, rm-mem, mpx
+sibmem, rm-mem, sib
+
+mem_vsib32x, vsib=xmm0;32,
+mem_vsib32y, vsib=ymm0;32,
+mem_vsib32z, vsib=zmm0;32,
+mem_vsib64x, vsib=xmm0;64,
+mem_vsib64y, vsib=ymm0;64,
+mem_vsib64z, vsib=zmm0;64,
+
+mem_offs, moffs,

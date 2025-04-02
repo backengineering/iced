@@ -1,0 +1,25 @@
+[package]
+# luna was taken, so I renamed it even though it's close to 0% probability
+# that this crate gets uploaded to crates.io.
+name = "loona"
+version = "0.1.0"
+edition = "2021"
+publish = false
+rust-version = "1.63.0"
+
+[features]
+default = []
+lua5_1 = []
+lua5_1_3 = ["lua5_1"]
+lua5_2 = []
+lua5_2_2 = ["lua5_2"]
+lua5_3 = []
+lua5_4 = []
+lua5_4_3 = ["lua5_4"]
+extra_checks = []
+
+[dependencies]
+libc = "0.2"
+
+[workspace]
+resolver = "2"

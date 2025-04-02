@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: MIT
+# Copyright (C) 2018-present iced project and contributors
+
+mov rax,0xFEDCBA9876543210
+mov rax,0xfedcba9876543210
+mov rax,0FEDCBA9876543210h
+mov rax,0fedcba9876543210h
